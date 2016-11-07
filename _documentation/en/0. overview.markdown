@@ -1,7 +1,7 @@
 ---
 layout: doc-pages
 lang: en
-permalink: "/documentation/search"
+permalink: "/documentation/"
 title: Overview
 ref: overview
 weight: 1
@@ -9,8 +9,6 @@ weight: 1
 
 # eRegulations documentation
 
-champ de recherche 
+champ de recherche
 
 index de tous les posts
-
-
