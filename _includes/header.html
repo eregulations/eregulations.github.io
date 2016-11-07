@@ -22,6 +22,8 @@
 
 			{% assign doc = site.collections | where: 'label', 'documentation' | first %}
 			{% assign lg = site.collections | where: 'label', 'log' | first %}
+			{% assign install = site.collections | where: 'label', 'installation' | first %}
+			{% assign arch = site.collections | where: 'label', 'architecture' | first %}
 
       <!-- Top navbar -->
       <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
@@ -31,6 +33,12 @@
           </li>
 					<li class="{% if page.url contains 'log' %}active{% endif %}">
             <a href="{{ lg.baseurl[page.lang] | prepend: site.baseurl }}">{{ lg.title[page.lang] }}</a>
+          </li>
+					<li class="{% if page.url contains 'instal' %}active{% endif %}">
+            <a href="{{ install.baseurl[page.lang] | prepend: site.baseurl }}">{{ install.title[page.lang] }}</a>
+          </li>
+					<li class="{% if page.url contains 'arch' or page.url contains 'arqu' %}active{% endif %}">
+            <a href="{{ arch.baseurl[page.lang] | prepend: site.baseurl }}">{{ arch.title[page.lang] }}</a>
           </li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -45,6 +53,12 @@
 
 							{% assign logs = site.log | where:"ref", page.ref | sort: 'lang' %}
               {% for lg in logs %} {% unless page.lang contains lg.lang %}<li><a href="{{ lg.url | prepend: site.baseurl }}" class="lang-select {{ lg.lang }}"><img src="{{ site.baseurl }}/images/{{ lg.lang }}.png"></a></li>{% endunless %} {% endfor %}
+
+							{% assign insts = site.installation | where:"ref", page.ref | sort: 'lang' %}
+              {% for inst in insts %} {% unless page.lang contains inst.lang %}<li><a href="{{ inst.url | prepend: site.baseurl }}" class="lang-select {{ inst.lang }}"><img src="{{ site.baseurl }}/images/{{ inst.lang }}.png"></a></li>{% endunless %} {% endfor %}
+
+							{% assign ars = site.architecture | where:"ref", page.ref | sort: 'lang' %}
+              {% for ar in ars %} {% unless page.lang contains ar.lang %}<li><a href="{{ ar.url | prepend: site.baseurl }}" class="lang-select {{ ar.lang }}"><img src="{{ site.baseurl }}/images/{{ ar.lang }}.png"></a></li>{% endunless %} {% endfor %}
 						</ul>
 					</li>
 				</ul>

@@ -1,0 +1,10 @@
+<ul class="sidenav dropable sticky">
+
+    {% assign install = site.installation | where: "lang", page.lang | sort: "weight" %}
+
+    {% for doc in install %}
+    <li class="{% if page.permalink contains doc.permalink %}active{% endif %}">
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

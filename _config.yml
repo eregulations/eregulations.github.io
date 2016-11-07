@@ -57,15 +57,15 @@ collections:
       fr: 'Architecture'
       vn: 'Architecture'
     baseurl:
-      en: '/achitecture'
+      en: '/architecture'
       es: '/es/arquitectura'
-      fr: '/fr/achitecture'
-      vn: '/vn/achitecture'
+      fr: '/fr/architecture'
+      vn: '/vn/architecture'
   installation:
     output: true
     title:
       en: 'Installation'
-      es: 'Instalacion'
+      es: 'Instalación'
       fr: 'Installation'
       vn: 'Installation'
     baseurl:
