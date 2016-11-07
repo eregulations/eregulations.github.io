@@ -20,16 +20,24 @@
       </div>
       <!-- END Toggle buttons and brand -->
 
+			{% assign doc = site.collections | where: 'label', 'documentation' | first %}
+
       <!-- Top navbar -->
       <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
 				<ul class="nav navbar-nav navbar-right">
+					<li class="{% if page.url contains 'documentation' %}active{% endif %}">
+            <a href="{{ doc.baseurl[page.lang] | prepend: site.baseurl }}">{{ doc.title[page.lang] }}</a>
+          </li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<img src="{{ site.baseurl }}/images/{{ page.lang }}.png">
 						</a>
 						<ul class="dropdown-menu">
-              {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-              {% for pagein in pages %} {% unless page.lang contains pagein.lang %}<li><a href="{{ pagein.url | prepend: site.baseurl }}" class="lang-select {{ pagein.lang }}"><img src="{{ site.baseurl }}/images/{{ pagein.lang }}.png"></a></li>{% endunless %} {% endfor %}
+              {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+              {% for pagein in pages %} {{ pagein.url }} {% unless page.lang contains pagein.lang %}<li><a href="{{ pagein.url | prepend: site.baseurl }}" class="lang-select {{ pagein.lang }}"><img src="{{ site.baseurl }}/images/{{ pagein.lang }}.png"></a></li>{% endunless %} {% endfor %}
+
+							{% assign docs = site.documentation | where:"ref", page.ref | sort: 'lang' %}
+              {% for doc in docs %} {% unless page.lang contains doc.lang %}<li><a href="{{ doc.url | prepend: site.baseurl }}" class="lang-select {{ doc.lang }}"><img src="{{ site.baseurl }}/images/{{ doc.lang }}.png"></a></li>{% endunless %} {% endfor %}
 						</ul>
 					</li>
 				</ul>

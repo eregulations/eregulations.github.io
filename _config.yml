@@ -34,9 +34,9 @@ collections:
         vn: 'tài liệu'
     baseurl:
         en: '/documentation'
-        es: '/documentacion'
-        fr: '/documentation'
-        vn: '/documentation'
+        es: '/es/documentacion'
+        fr: '/fr/documentation'
+        vn: '/vn/documentation'
   log:
     output: true
     title:
@@ -46,9 +46,9 @@ collections:
       vn: 'Log'
     baseurl:
       en: '/log'
-      es: '/log'
-      fr: '/log'
-      vn: '/log'
+      es: '/es/log'
+      fr: '/fr/log'
+      vn: '/vn/log'
   architecture:
     output: true
     title:
@@ -58,9 +58,9 @@ collections:
       vn: 'Architecture'
     baseurl:
       en: '/achitecture'
-      es: '/arquitectura'
-      fr: '/achitecture'
-      vn: '/achitecture'
+      es: '/es/arquitectura'
+      fr: '/fr/achitecture'
+      vn: '/vn/achitecture'
   installation:
     output: true
     title:
@@ -70,9 +70,9 @@ collections:
       vn: 'Installation'
     baseurl:
       en: '/installation'
-      es: '/instalacion'
-      fr: '/installation'
-      vn: '/installation'
+      es: '/es/instalacion'
+      fr: '/fr/installation'
+      vn: '/vn/installation'
 
 # Build settings
 markdown: kramdown
