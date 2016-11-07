@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/administrative-interface"
 title: '4. Administrative interface'
 ref: administrative-interface
-weight: 1
+weight: 5
 ---
 
 # Administrative interface

@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/public-interface"
 title: '2. Public interface'
 ref: public-interface
-weight: 1
+weight: 3
 ---
 
 # Public interface

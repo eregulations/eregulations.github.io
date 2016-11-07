@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/philosophy"
 title: '1. System philosophy'
 ref: philosophy
-weight: 1
+weight: 2
 ---
 
 # System philosophy

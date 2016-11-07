@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/menu-page"
 title: '6. Menu page'
 ref: menu-page
-weight: 1
+weight: 7
 ---
 
 # Menu page

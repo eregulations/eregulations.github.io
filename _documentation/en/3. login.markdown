@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/login"
 title: '3. Log in'
 ref: login
-weight: 1
+weight: 4
 ---
 
 # Log in

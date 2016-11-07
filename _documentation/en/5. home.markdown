@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/home-page"
 title: '5. Home page'
 ref: home-page
-weight: 1
+weight: 6
 ---
 
 # Home page

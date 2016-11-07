@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/objectives"
 title: '7. Objectives'
 ref: objectives
-weight: 1
+weight: 8
 ---
 
 # Objectives

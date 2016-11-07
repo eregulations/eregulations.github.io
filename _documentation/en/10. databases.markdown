@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/databases"
 title: '10. Contacts, requirements, laws'
 ref: blocks
-weight: 1
+weight: 11
 ---
 
 # Contacts, requirements, laws

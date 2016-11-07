@@ -4,7 +4,7 @@ lang: en
 permalink: "/documentation/blocks"
 title: '8. Blocks'
 ref: blocks
-weight: 1
+weight: 9
 ---
 
 # Blocks
