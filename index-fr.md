@@ -1,6 +1,7 @@
 ---
 layout: page
 lang: fr
+permalink: '/fr/'
 ref: index
 ---
 

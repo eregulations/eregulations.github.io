@@ -1,6 +1,7 @@
 ---
 layout: page
 lang: es
+permalink: '/es/'
 ref: index
 ---
 

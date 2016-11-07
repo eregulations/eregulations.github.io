@@ -1,6 +1,7 @@
 ---
 layout: page
 lang: vn
+permalink: '/vn/'
 ref: index
 ---
 

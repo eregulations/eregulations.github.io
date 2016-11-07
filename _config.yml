@@ -19,9 +19,9 @@ port: 4002
 
 index:
   en:
-  es: 'index-es.html'
-  fr: 'index-fr.html'
-  vn: 'index-vn.html'
+  es: '/es'
+  fr: '/fr'
+  vn: '/vn'
 
 # Collections
 collections:
