@@ -3,7 +3,7 @@
     {% assign arch = site.architecture | where: "lang", page.lang | sort: "weight" %}
 
     {% for doc in arch %}
-    <li class="{% if page.permalink contains doc.permalink %}active{% endif %}">
+    <li class="{% if page.permalink == doc.permalink %}active{% endif %}">
         <a href="{{ doc.url }}">{{ doc.title }}</a>
     </li>
     {% endfor %}
