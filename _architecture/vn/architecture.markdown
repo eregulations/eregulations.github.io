@@ -1,7 +1,7 @@
 ---
 layout: archi-pages
 lang: vn
-permalink: "/vn/architecture"
+permalink: "/vn/architecture/"
 title: Architecture
 ref: architecture
 weight: 1

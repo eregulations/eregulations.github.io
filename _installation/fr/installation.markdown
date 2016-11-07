@@ -1,7 +1,7 @@
 ---
 layout: inst-pages
 lang: fr
-permalink: "/fr/installation"
+permalink: "/fr/installation/"
 title: Installation
 ref: installation
 weight: 1
