@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/databases"
+title: '10. Contacts, requirements, laws'
+ref: blocks
+weight: 1
+---
+
+# Contacts, requirements, laws

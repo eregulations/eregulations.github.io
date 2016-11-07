@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/home-page"
+title: '5. Home page'
+ref: home-page
+weight: 1
+---
+
+# Home page

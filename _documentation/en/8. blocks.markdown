@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/blocks"
+title: '8. Blocks'
+ref: blocks
+weight: 1
+---
+
+# Blocks

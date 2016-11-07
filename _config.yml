@@ -11,7 +11,7 @@ main_title: Help eRegulations
 email: info@eregulations.com
 description:
   en: Help for eRegulations
-  es: Ayada pro eRegulations
+  es: Ayuda para eRegulations
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "help.eregulations.org" # the base hostname & protocol for your site
 github_username:  eregulations

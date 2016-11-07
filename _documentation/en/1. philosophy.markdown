@@ -1,9 +1,9 @@
 ---
 layout: doc-pages
 lang: en
-permalink: "/documentation"
-title: Philosophy
-ref: overview
+permalink: "/documentation/philosophy"
+title: '1. System philosophy'
+ref: philosophy
 weight: 1
 ---
 

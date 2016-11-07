@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/administrative-interface"
+title: '4. Administrative interface'
+ref: administrative-interface
+weight: 1
+---
+
+# Administrative interface
