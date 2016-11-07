@@ -1,7 +1,7 @@
 ---
 layout: inst-pages
 lang: vn
-permalink: "/installation"
+permalink: "/vn/installation"
 title: Installation VN
 ref: installation
 weight: 1
