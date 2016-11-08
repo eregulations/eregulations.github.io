@@ -9,37 +9,41 @@ weight: 2
 
 # System philosophy
 
-<h3>Procedures presented from the user’s point of view</h3>
-<p>To achieve an economic operation (create a company, buy or lease land, hire personnel, sell goods, etc.) one has to comply with a series of administrative processes: usually, register at public registries and obtain permits. In order to get those registrations and permits, businesses usually have to interact with one or several public or private agencies. </p>
-<div class="well">
-	<p class="lead">From the point of view of the user:<br><br>
-Operation that you want to achieve = <strong>OBJECTIVE</strong><br><br>
-Any mandatory interaction between the user and the administration = <strong>STEP</strong><br><br>
-NECESSARY STEPS to achieve an OBJECTIVE = <strong>PROCEDURE</strong></p>
+### Procedures presented from the user’s point of view
+
+To achieve an economic operation (create a company, buy or lease land, hire personnel, sell goods, etc.) one has to comply with a series of administrative processes: usually, register at public registries and obtain permits. In order to get those registrations and permits, businesses usually have to interact with one or several public or private agencies.
+
+<div class="jumbotron jumbotron-sm">
+	From the point of view of the user:
+		<ul>
+			<li>Operation that you want to achieve = <strong>OBJECTIVE</strong></li>
+			<li>Any mandatory interaction between the user and the administration = <strong>STEP</strong></li>
+			<li>Necessary steps to achieve an objective = <strong>PROCEDURE</strong></li>
+		</ul>
 </div>
 <hr>
 <h3>The system is built around the notion of step</h3>
-<div class="well">
+<div class="jumbotron jumbotron-sm">
 	<strong>Definition</strong>
-	<p class="lead">STEP = any necessary interaction between the user and the administration (or a private actor providing a necessary service, such as a notary) to achieve an objective.</p>
+	<p>STEP = any necessary interaction between the user and the administration (or a private actor providing a necessary service, such as a notary) to achieve an objective.</p>
 </div>
 <hr>
 <h3>Elements of the step</h3>
 <p>The basic information that the user needs to know in each step:</p>
 <ol>
-	<li>Where should I go? <span style="color:#08C;">(person and entity in charge)</span></li>
-	<li>What will I get at the end of the step?<span style="color:#08C;">(result of the step)</span></li>
-	<li>What should I give or show to obtain the result?<span style="color:#08C;">(requirements)</span></li>
+	<li>Where should I go? <span class="text-primary">(person and entity in charge)</span></li>
+	<li>What will I get at the end of the step?<span class="text-primary">(result of the step)</span></li>
+	<li>What should I give or show to obtain the result?<span class="text-primary">(requirements)</span></li>
 </ol>
 <p>There are also other important questions:</p>
 <ol start="4">
-	<li>How much should I pay in this step?<span style="color:#08C;">(costs)</span></li>
-	<li>How long does this step take? <span style="color:#08C;">(time frame)</span></li>
-	<li>Whom can I complain to in case of disagreement with the person in charge of the step? <span style="color:#08C;">(recurse)</span></li>
-	<li>What legal texts justify the existence and the modalities of this step?<span style="color:#08C;">(legal justification)</span></li>
-	<li>Who confirms that all this information is valid? <span style="color:#08C;">(certification)</span></li>
+	<li>How much should I pay in this step?<span class="text-primary">(costs)</span></li>
+	<li>How long does this step take? <span class="text-primary">(time frame)</span></li>
+	<li>Whom can I complain to in case of disagreement with the person in charge of the step? <span class="text-primary">(recurse)</span></li>
+	<li>What legal texts justify the existence and the modalities of this step?<span class="text-primary">(legal justification)</span></li>
+	<li>Who confirms that all this information is valid? <span class="text-primary">(certification)</span></li>
 </ol>
-<p>To these 8 elements we add 2 more, to complete the definistion of a step:</p>
+<p>To these 8 elements we add 2 more, to complete the definition of a step:</p>
 <ol start="9">
 	<li>Name of the step</li>
 	<li>Additional information</li>
