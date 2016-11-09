@@ -5,6 +5,8 @@ permalink: "/documentation/steps/visibility"
 title: '9.1. Visibility'
 ref: step-visibility
 weight: 10
+submenu: "step"
+subweight: 1
 ---
 
 # Blocks

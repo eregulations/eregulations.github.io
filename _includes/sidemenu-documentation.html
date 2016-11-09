@@ -1,10 +1,25 @@
-<ul class="sidenav dropable sticky">
+<ul class="sidenav dropable">
 
     {% assign documentation = site.documentation | where: "lang", page.lang | sort: "weight" %}
 
     {% for doc in documentation %}
+
+		{% if doc.submenu %}
+
+			{% if group != doc.submenu %}
+			<li>{{ doc.submenu }}</li>
+			<li>{{ doc.title }}</li>
+			{% else %}
+			<li>{{ doc.title }}</li>
+			{% endif %}
+		</li>
+		{% else %}
+
     <li class="{% if page.permalink == doc.permalink %}active{% endif %}">
         <a href="{{ doc.url }}">{{ doc.title }}</a>
     </li>
+		{% endif %}
+		{% assign group = doc.submenu %}
     {% endfor %}
+
 </ul>
