@@ -3,6 +3,7 @@ layout: logs-pages
 lang: en
 permalink: "/log/"
 ref: changelog
+visible: true
 weight: 100000
 ---
 

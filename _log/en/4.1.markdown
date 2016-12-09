@@ -3,6 +3,7 @@ layout: logs-pages
 lang: en
 permalink: "/log/4.1/"
 ref: changelog-41
+visible: false
 weight: 410
 ---
 
@@ -24,10 +25,10 @@ weight: 410
     <h5>Relation between results and requirement is automatic</h5>
     <p class="meta-data">Admin interface | Step | Results & Requirements</p>
     <p>Before, the requirements that were results from a previous step were added from the list of documents, where they appeared with a yellow background.</p>
-    
+
     <p>With this update, requirements are documents coming from the database of documents. A requirement can be a result from a previous step or not, it does not matter. All the requirements are added from the database of documents.<br>The system detects automatically if one document appear to be result in one step and requirement in a posterior step (in this case it will be green in the summary).</p>
   </li>
-  
+
   <li>
     <h5>Recourses are treated as contacts</h5>
     <p class="meta-data">Admin interface | Step | Recourses</p>
@@ -38,40 +39,40 @@ weight: 410
     <h5>No more "Show recourses" on top of the procedures tree</h5>
     <p class="meta-data">Admin interface | Step | Recourses</p>
     <p>This selector was not needed anymore with the update of the recourses "treated as contacts" - it has been removed.</p>
-  </li> 
+  </li>
   <li>
     <h5>No more "This step is subjected to a cost"</h5>
     <p class="meta-data">Admin interface | Step | Costs</p>
     <p>There is no need to specify if there is a cost, the “This step is subjected to costs” setting has been removed.</p>
-  </li> 
+  </li>
   <li>
     <h5>Cost type selector to chose between fixed, % and 'per'</h5>
     <p class="meta-data">Admin interface | Step | Costs</p>
     <p>Before, the types of costs (fixed, percentage, per) were not clear. With this update, there is now a costs type selector before the costs fields. </p>
     <img src="/images/log/new-cost-selector.png" style="max-width:400px;">
-  </li> 
+  </li>
   <li>
     <h5>Adding a variable of a cost directly from the cost settings</h5>
     <p class="meta-data">Admin interface | Step | Costs</p>
     <p>The variable of a cost can be added simply by typing it in the Variable field of the cost setting.</p>
-  </li> 
+  </li>
 
   <li>
     <h5>No more "Upload from FTP" button for uploading medias</h5>
     <p class="meta-data">Admin interface | Step | Documents</p>
     <p>The “Select from FTP” has been removed. No one uses it and it is not necessary anymore as the system is fast.</p>
-  </li> 
+  </li>
 
   <li>
     <h5>No more "Description" field for each document</h5>
     <p class="meta-data">Admin interface | Step | Documents</p>
     <p>The field “Description” of each requirement, result, law, has been removed. The field was never used.</p>
-  </li> 
+  </li>
 
   <li>
     <h5>No more "Has document attached" checkbox for each document</h5>
     <p class="meta-data">Admin interface | Step | Documents</p>
     <p>The checkbox “Has document attached” of each requirement, result, law, has been removed. The checkbox was never used, it had no effect.</p>
-  </li> 
+  </li>
 
 </ul>

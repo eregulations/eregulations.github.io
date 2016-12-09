@@ -519,6 +519,11 @@ h1 a:before, h2 a:before, h3 a:before {
 	display: none;
 }
 
+/* ---- */
+.changelog .ch-updated:before {
+	content: "Modified";
+}
+
 /* responsive */
 @media screen and (max-width:767px) {
 	header {
