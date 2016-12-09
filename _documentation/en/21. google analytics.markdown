@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/google-analytics"
+title: '21. Google Analytics'
+ref: google-analytics
+weight: 22
+---
+
+# Google analytics

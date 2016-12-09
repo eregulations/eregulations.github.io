@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/content-translation"
+title: '16. Content translation'
+ref: content-translation
+weight: 17
+---
+
+# Content translation

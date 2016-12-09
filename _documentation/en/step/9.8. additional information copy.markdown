@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/additional-information"
+title: '9.8. Additional information'
+ref: step-additional-information
+weight: 10
+submenu: "9. Steps"
+subweight: 8
+---
+
+# Steps - Additional information

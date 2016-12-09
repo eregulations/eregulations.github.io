@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/system-translation"
+title: '15. System translation'
+ref: system-translation
+weight: 16
+---
+
+# System translation

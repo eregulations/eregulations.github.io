@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/media-library"
+title: '12. Media library'
+ref: media-library
+weight: 13
+---
+
+# Media library

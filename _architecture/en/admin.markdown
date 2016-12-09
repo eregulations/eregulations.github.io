@@ -1,13 +1,13 @@
 ---
 layout: archi-pages
 lang: en
-permalink: "/architecture/admin-web-app"
+permalink: "/architecture/admin-web-app/"
 title: Admin Web App
 ref: architecture-admin-web-app
 weight: 2
 ---
 
-# Admin Web App
+# Admin Web Application
 
 <p>The eRegulations Admin WebApp allows a user with the correct credentials to enter the back office space of the system and to update the eRegulations content.</p>
 <p>The management of information is built on three main pillars that target the main areas of the application:</p>
@@ -109,8 +109,10 @@ weight: 2
 <h2 id="p3">3. Domain model</h2>
 <h4>Step context diagram</h4>
 The diagram below will illustrate as example the domain modeling of the Step as the Root Aggregate Class and all the collection of bound classes.
-<img src="http://help.eregulations.org/wp-content/uploads/2013/06/StepContextDiagram.png" alt="StepContextDiagram" title="StepContextDiagram.PNG" border="0" width="600" height="496" class="img2"/>
+<img src="http://help.eregulations.org/wp-content/uploads/2013/06/StepContextDiagram.png" alt="StepContextDiagram" title="StepContextDiagram.PNG" border="0" width="600" height="496" class="img2"/>  
+
 The entire model of the eRegulations system has been implemented following a Domain Driven Design approach.
+
 <h4>eRegulations data structure</h4>
 The structure of the data is <a href="http://help.eregulations.org/?p=5680#p1" target="_blank">here</a>.
 <hr>
@@ -127,21 +129,21 @@ The structure of the data is <a href="http://help.eregulations.org/?p=5680#p1" t
 1. User makes a request in the browser by clicking on a hyperlink. The request will send as a query parameter the ID of the requested step.</div>
 Here the sequence of code:
 <ol>
-	<li>IIS identifies the requested resource as "StepGeneral.aspx" inside the admin application, so it forwards the request to our application
-		<li>Asp.Net creates a new instance of the object "Views_Regulation_StepGeneral"
-		</li><li>Asp.Net trigger the event "Page_Load"
-	</li><li>Inside the "Page_Load" we create a new instance of the presenter sending in the constructor the current instance of Views_Regulation_StepGeneral as this class implements the interface IStepView and the AppContext which is an application context that travels through all the layers. The AppContext is created each time a request is intercepted by our application. It is cached through the duration of the request in the HttpContext
-</li><li>the newly created presenter will call the method InitView send the stepId as parameter
-</li><li>the presenter holds all the presentation logic. It has a reference of the "IView" interface which will use for displaying the information. Still is not aware of how this interface is implemented (in our case is the System.Web.UI.Page)
-</li><li>the presenter will create a new instance of the BusinessObjectAPI related to our need (in our case StepBO)
-</li><li>the BusinessObjectAPI holds a reference to the Root Aggregate Class (in our case Step). the presenter creates a new instance of the model, it sets the Id of the model  and it attaches it to the BusinessObjectAPI.
-</li><li>the presenter demand the BusinessObjectAPI to load the model
-</li><li>the BusinessObjectAPI will call the RepositoryFactory in order to retrieve an instance of IRepository that will use for talking to the DataLayer (it will return an instance of LiqRepository)
-</li><li>the BusinessObjectAPI uses the IRepository instance and load the model from the data (the repository will call a SQL query that will be executed against the SQL Server DB and the load the model with the db data)
-</li><li>the BusinessObjectAPI holds a collection of errors in case any operation performed raised an error
-</li><li>the presenter verifies if the load of model was ended successfully and if so it tells the IView (in our case the  Regulation) to display the details of the model . If the process of loading the data failed, the presenter calls the "ShowErrors" method of the IView to display the errors
-</li><li>inside the System.Web.UI.Page methods/properties of the IView implementation we set the data to html elements
-</li><li>the System.Web.UI.Page finishes the cycle and display the html output</li>
+	<li>IIS identifies the requested resource as "StepGeneral.aspx" inside the admin application, so it forwards the request to our application</li>
+	<li>Asp.Net creates a new instance of the object "Views_Regulation_StepGeneral"</li>
+	<li>Asp.Net trigger the event "Page_Load"</li>
+	<li>Inside the "Page_Load" we create a new instance of the presenter sending in the constructor the current instance of Views_Regulation_StepGeneral as this class implements the interface IStepView and the AppContext which is an application context that travels through all the layers. The AppContext is created each time a request is intercepted by our application. It is cached through the duration of the request in the HttpContext</li>	
+	<li>the newly created presenter will call the method InitView send the stepId as parameter</li>
+	<li>the presenter holds all the presentation logic. It has a reference of the "IView" interface which will use for displaying the information. Still is not aware of how this interface is implemented (in our case is the System.Web.UI.Page)</li>
+	<li>the presenter will create a new instance of the BusinessObjectAPI related to our need (in our case StepBO)</li>
+	<li>the BusinessObjectAPI holds a reference to the Root Aggregate Class (in our case Step). the presenter creates a new instance of the model, it sets the Id of the model  and it attaches it to the BusinessObjectAPI.</li>
+	<li>the presenter demand the BusinessObjectAPI to load the model</li>
+	<li>the BusinessObjectAPI will call the RepositoryFactory in order to retrieve an instance of IRepository that will use for talking to the DataLayer (it will return an instance of LiqRepository)</li>
+	<li>the BusinessObjectAPI uses the IRepository instance and load the model from the data (the repository will call a SQL query that will be executed against the SQL Server DB and the load the model with the db data)</li>
+	<li>the BusinessObjectAPI holds a collection of errors in case any operation performed raised an error</li>
+	<li>the presenter verifies if the load of model was ended successfully and if so it tells the IView (in our case the  Regulation) to display the details of the model . If the process of loading the data failed, the presenter calls the "ShowErrors" method of the IView to display the errors</li>
+	<li>inside the System.Web.UI.Page methods/properties of the IView implementation we set the data to html elements</li>
+	<li>the System.Web.UI.Page finishes the cycle and display the html output</li>
 </ol>
 <br/>
 <h4>Trigger an action on the page (update)</h4>

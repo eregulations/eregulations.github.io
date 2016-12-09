@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/directories"
+title: '11. Directories'
+ref: directories
+weight: 12
+---
+
+# Directories

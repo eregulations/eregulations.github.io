@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/timeframe"
+title: '9.6. Timeframe'
+ref: step-timeframe
+weight: 10
+submenu: "9. Steps"
+subweight: 6
+---
+
+# Steps - timeframe

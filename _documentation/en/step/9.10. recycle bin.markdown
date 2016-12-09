@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/recycle-bin"
+title: '9.10. Recycle bin'
+ref: step-recycle-bin
+weight: 10
+submenu: "9. Steps"
+subweight: 10
+---
+
+# Steps - Recycle bin

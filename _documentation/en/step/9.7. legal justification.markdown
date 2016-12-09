@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/legal-justification"
+title: '9.7. Legal justification'
+ref: step-legal-justification
+weight: 10
+submenu: "9. Steps"
+subweight: 7
+---
+
+# Steps - Legal justification

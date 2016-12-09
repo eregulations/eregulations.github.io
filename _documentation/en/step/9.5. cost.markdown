@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/cost/"
+title: '9.5. Cost'
+ref: step-cost
+weight: 10
+submenu: "9. Steps"
+subweight: 5
+---
+
+# Steps - cost
