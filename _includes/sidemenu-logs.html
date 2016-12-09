@@ -3,8 +3,10 @@
     {% assign logs = site.log | where: "lang", page.lang | sort: "weight" | reverse %}
 
     {% for log in logs %}
+		{% if log.visible %}
     <li class="{% if page.permalink == log.permalink %}active{% endif %}">
         <a href="{{ log.url }}">{{ log.title }}</a>
     </li>
+		{% endif %}
     {% endfor %}
 </ul>
