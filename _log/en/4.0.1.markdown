@@ -6,15 +6,44 @@ ref: changelog-401
 weight: 401
 ---
 
-# Change log
+# v 4.0.1
 
-### v 4.0.1  <small>[(detail]())</small>
+<ul class="list-view">
+  <li>
+    <h5>Duplicate block functionality</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>In the procedure tree, select a block. A new button <button type="button" class="btn btn-xs btn-warning">Duplicate block</button> is available. This button creates a copy of the block with a copy of the steps contained in the copied block.</p>
+    <img src="/images/log/duplicate-block.png">
+  </li>
 
-<ul class="changelog">
-	<li class="ch-added">Duplicate block functionality</li>
-	<li class="ch-added">Duplicate procedure functionality</li>
-	<li class="ch-updated">"Show recourses" checked by default in procedures tree</li>
-	<li class="ch-updated">Tree items are closed by default - only current element subtree is open</li>
-	<li class="ch-updated">Infinite number of logos in header and footer</li>
-	<li class="ch-added">Display only certified procedures to public</li>
+  <li>
+    <h5>Duplicate procedure functionality</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>In the procedure tree, select a procedure. A new button <button type="button" class="btn btn-xs btn-warning">Duplicate</button> is available. This button creates a copy of the entire procedure with a copy of the blocks and steps contained in the copied procedure.</p>
+    <img src="/images/log/duplicate-procedure.png">
+  </li>
+
+  <li>
+    <h5>"Show recourses" checked by default in procedures tree</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis bibendum ligula. Vestibulum lacinia nibh vel porttitor lacinia. Praesent ante nunc, auctor mattis luctus quis, condimentum sed tellus.</p>
+  </li>
+  <li>
+    <h5>Tree items are closed by default - only current element subtree is open</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>A quick-start guide to all the basics you need to get up and running now. Vestibulum lacinia nibh vel porttitor lacinia. Praesent ante nunc, auctor mattis luctus quis, condimentum sed tellus.</p>
+  </li>
+
+  <li>
+    <h5>Infinite number of logos in header and footer</h5>
+    <p class="meta-data">Admin interface | Public layout, homepage</p>
+    <p>Learn how to turn that blog into a static website for your business or your organization. Vestibulum lacinia nibh vel porttitor lacinia. Praesent ante nunc, auctor mattis luctus quis, condimentum sed tellus.</p>
+  </li>
+
+  <li>
+    <h5>Display only certified procedures to public</h5>
+    <p class="meta-data">Admin interface | Public layout</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis bibendum ligula. Vestibulum lacinia nibh vel porttitor lacinia. Praesent ante nunc, auctor mattis luctus quis, condimentum sed tellus.</p>
+  </li>
+
 </ul>

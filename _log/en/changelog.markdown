@@ -8,7 +8,7 @@ weight: 100000
 
 # Change log
 
-### v 4.0.1  <small>[(detail]())</small>
+### v 4.0.1  <small>[(detail](/log/4.0.1/))</small>
 
 <ul class="changelog">
 	<li class="ch-added">Duplicate block functionality</li>
