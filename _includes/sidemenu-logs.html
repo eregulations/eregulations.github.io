@@ -1,0 +1,10 @@
+<ul class="sidenav dropable sticky">
+
+    {% assign logs = site.log | where: "lang", page.lang | sort: "weight" | reverse %}
+
+    {% for log in logs %}
+    <li class="{% if page.permalink == log.permalink %}active{% endif %}">
+        <a href="{{ log.url }}">{{ log.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

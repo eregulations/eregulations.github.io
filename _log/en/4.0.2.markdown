@@ -1,14 +1,14 @@
 ---
 layout: logs-pages
 lang: en
-permalink: "/log/"
-ref: changelog
-weight: 100000
+permalink: "/log/4.0.2/"
+ref: changelog-402
+weight: 402
 ---
 
 # Change log
 
-### v 4.0.1  <small>[(detail]())</small>
+### v 4.0.2  <small>[(detail]())</small>
 
 <ul class="changelog">
 	<li class="ch-added">Duplicate block functionality</li>

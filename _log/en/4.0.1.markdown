@@ -1,9 +1,9 @@
 ---
 layout: logs-pages
 lang: en
-permalink: "/log/"
-ref: changelog
-weight: 100000
+permalink: "/log/4.0.1/"
+ref: changelog-401
+weight: 401
 ---
 
 # Change log
