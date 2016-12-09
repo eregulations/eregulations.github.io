@@ -10,7 +10,7 @@
 			<li>
 				<a href="#" class="has-child {% if page.submenu contains doc.submenu %}active open{% endif %}">{{ doc.submenu }}</a>
 				<ul>
-					{% assign subs = site.documentation | where: "lang", page.lang | where: "submenu", doc.submenu | sort: "weight" %}
+					{% assign subs = site.documentation | where: "lang", page.lang | where: "submenu", doc.submenu | sort: "subweight" %}
 					{% for sub in subs %}
 					<li class="{% if page.permalink == sub.permalink %}active{% endif %}">
 						<a href="{{ sub.url }}">{{ sub.title }}</a>

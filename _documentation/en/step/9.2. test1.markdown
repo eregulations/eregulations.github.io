@@ -5,7 +5,7 @@ permalink: "/documentation/steps/test1"
 title: '9.2. Test 1'
 ref: step-test-1
 weight: 10
-submenu: "step"
+submenu: "9. Step"
 subweight: 2
 ---
 
