@@ -1,26 +1,13 @@
 ---
 layout: inst-pages
 lang: en
-permalink: "/installation/hosting"
+permalink: "/installation/hosting/"
 title: Hosting requirements
 ref: hosting
 weight: 2
 ---
 
 # Hosting requirements
-
-
-<h2 id="p1">Overview</h2>
-The eRegulations system is based on several interconnected applications being responsible for assuring data entry activities, pre-processing the information and presenting it to the internet user.
-The main eRegulations applications / components are listed below:
-<ul>
-	<li><strong>Admin WebApp</strong> - application runs on Windows Server, .NET Framework, Internet Information Services (IIS) and SQL Server.</li>
-	<li><strong>Public WebApp</strong> - application runs on Windows Server, .NET Framework, Internet Information Services (IIS) and SQL Server.</li>
-	<li><strong>API Server</strong> - application runs on both Windows Server with Internet Information Services (IIS) or OSX/*nix Server</li>
-	<li><strong>CRAlerts CLI</strong> - application runs on Windows Server and SQL Server</li>
-	<li><strong>Statistics CLI</strong> - application runs on Windows Server and SQL Server</li>
-</ul>
-All the eRegulations applications can be executed inside one Windows Server environment or in a distributed manner environment with each application server connecting to a central SQL server database. This allows flexibility to deploy the web/application server and SQL server on the same or on separate machines, and in larger installations it allows multiple web/application servers to be configured in a load balanced configuration for high availability.
 
 <h2 id="p2">Server-side requirements</h2>
 <ul>
