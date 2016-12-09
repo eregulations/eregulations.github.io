@@ -7,10 +7,17 @@
 		{% if doc.submenu %}
 
 			{% if group != doc.submenu %}
-			<li>{{ doc.submenu }}</li>
-			<li>{{ doc.title }}</li>
-			{% else %}
-			<li>{{ doc.title }}</li>
+			<li>
+				<a href="#" class="has-child {% if page.submenu contains doc.submenu %}active open{% endif %}">{{ doc.submenu }}</a>
+				<ul>
+					{% assign subs = site.documentation | where: "lang", page.lang | where: "submenu", doc.submenu | sort: "weight" %}
+					{% for sub in subs %}
+					<li class="{% if page.permalink == sub.permalink %}active{% endif %}">
+						<a href="{{ sub.url }}">{{ sub.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</li>
 			{% endif %}
 		</li>
 		{% else %}
