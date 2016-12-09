@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/results"
+title: '9.2. Result'
+ref: step-results
+weight: 10
+submenu: "9. Steps"
+subweight: 2
+---
+
+# Steps - results

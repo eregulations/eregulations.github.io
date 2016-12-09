@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/recourse"
+title: '9.9. Recourse'
+ref: step-recourse
+weight: 10
+submenu: "9. Steps"
+subweight: 9
+---
+
+# Steps - Recourse

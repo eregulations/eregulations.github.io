@@ -6,7 +6,7 @@ title: '9.1. Visibility'
 ref: step-visibility
 weight: 10
 submenu: "9. Steps"
-subweight: 1
+subweight: 4
 ---
 
 # Steps - visibility

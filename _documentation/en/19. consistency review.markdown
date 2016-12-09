@@ -1,0 +1,10 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/consistency-review"
+title: '19. Consistency review'
+ref: consistency-review
+weight: 20
+---
+
+# Consistency review

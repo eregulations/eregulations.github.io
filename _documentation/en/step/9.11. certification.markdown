@@ -1,0 +1,12 @@
+---
+layout: doc-pages
+lang: en
+permalink: "/documentation/steps/certification"
+title: '9.11. Certification'
+ref: step-certification
+weight: 10
+submenu: "9. Steps"
+subweight: 11
+---
+
+# Steps - Certification
