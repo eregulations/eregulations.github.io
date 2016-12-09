@@ -12,21 +12,21 @@ weight: 401
 
 <ul class="list-view">
   <li>
-    <h5>Duplicate block functionality</h5>
+    <h5>Duplicate block</h5>
     <p class="meta-data">Admin interface | Procedure tree</p>
     <p>In the procedure tree, select a block. A new button <button type="button" class="btn btn-xs btn-warning">Duplicate block</button> is available. This button creates a copy of the block with a copy of the steps contained in the copied block.</p>
     <img src="/images/log/duplicate-block.png" style="max-width: 800px;">
   </li>
 
   <li>
-    <h5>Duplicate procedure functionality</h5>
+    <h5>Duplicate procedure</h5>
     <p class="meta-data">Admin interface | Procedure tree</p>
     <p>In the procedure tree, select a procedure. A new button <button type="button" class="btn btn-xs btn-warning">Duplicate</button> is available. This button creates a copy of the entire procedure with a copy of the blocks and steps contained in the copied procedure.</p>
     <img src="/images/log/duplicate-procedure.png" style="max-width: 800px;">
   </li>
 
   <li>
-    <h5>"Show recourses" checked by default in procedures tree</h5>
+    <h5>"Show recourse" checked by default in procedures tree</h5>
     <p class="meta-data">Admin interface | Procedure tree</p>
     <p>The checkbox on "Show recourses" is now selected by default (it was not selected by default before this update). The purpose of this is to avoid the confusion of not being able to access the recourses in the procedures tree.</p>
     <img src="/images/log/show-recourses.png" style="max-width: 270px;">

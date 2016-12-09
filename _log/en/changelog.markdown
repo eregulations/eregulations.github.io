@@ -8,6 +8,7 @@ weight: 100000
 
 # Change log
 
+<!--
 ### v 4.1  <small>Not yet applied [(detail](/log/4.1/))</small>
 
 <ul class="changelog">
@@ -22,14 +23,14 @@ weight: 100000
 	<li class="ch-removed">No more "Description" field for each document</li>
 	<li class="ch-removed">No more "Has document attached" checkbox for each document</li>
 </ul>
+-->
 
-
-### v 4.0.1  <small>Applied on December 10th, 2016 [(detail](/log/4.0.1/))</small>
+### v 4.0.1  <small>Planned for December 10th, 2016 [(detail](/log/4.0.1/))</small>
 
 <ul class="changelog">
-	<li class="ch-added">Duplicate block functionality</li>
-	<li class="ch-added">Duplicate procedure functionality</li>
-	<li class="ch-updated">"Show recourses" checked by default in procedures tree</li>
+	<li class="ch-added">Duplicate block</li>
+	<li class="ch-added">Duplicate procedure</li>
+	<li class="ch-updated">"Show recourse" checked by default in procedures tree</li>
 	<li class="ch-updated">Tree items are closed by default - only current element subtree is open</li>
 	<li class="ch-updated">Infinite number of logos in header and footer</li>
 	<li class="ch-added">Display only certified procedures to public</li>
