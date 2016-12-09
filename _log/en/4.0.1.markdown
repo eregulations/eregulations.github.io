@@ -1,0 +1,53 @@
+---
+layout: logs-pages
+lang: en
+permalink: "/log/4.0.1/"
+ref: changelog-401
+weight: 401
+---
+
+# v 4.0.1
+
+<ul class="list-view">
+  <li>
+    <h5>Duplicate block functionality</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>In the procedure tree, select a block. A new button <button type="button" class="btn btn-xs btn-warning">Duplicate block</button> is available. This button creates a copy of the block with a copy of the steps contained in the copied block.</p>
+    <img src="/images/log/duplicate-block.png" style="max-width: 800px;">
+  </li>
+
+  <li>
+    <h5>Duplicate procedure functionality</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>In the procedure tree, select a procedure. A new button <button type="button" class="btn btn-xs btn-warning">Duplicate</button> is available. This button creates a copy of the entire procedure with a copy of the blocks and steps contained in the copied procedure.</p>
+    <img src="/images/log/duplicate-procedure.png" style="max-width: 800px;">
+  </li>
+
+  <li>
+    <h5>"Show recourses" checked by default in procedures tree</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>The checkbox on "Show recourses" is now selected by default (it was not selected by default before this update). The purpose of this is to avoid the confusion of not being able to access the recourses in the procedures tree.</p>
+    <img src="/images/log/show-recourses.png" style="max-width: 270px;">
+  </li>
+  <li>
+    <h5>Tree items are closed by default - only current element subtree is open</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>The trees are closed for all the branches in which the user is not. The branches still can be all opened by the user wby clicking on the arrows. This is done to avoid very long tree in the 'General' tabs.</p>
+    <img src="/images/log/tree-closed.png" style="max-width: 270px;">
+  </li>
+
+  <li>
+    <h5>Infinite number of logos in header and footer</h5>
+    <p class="meta-data">Admin interface | Public layout, homepage</p>
+    <p>It is now possible to add as many logos wanted in the header and the footer. For that, use the link "Add new logo", upload the image and fill the url that will be linked to the logo. Before this update, it was only possible to put 2 logos in the header and 3 in the footer.</p>
+    <img src="/images/log/add-logos.png"  style="max-width: 800px;">
+  </li>
+
+  <li>
+    <h5>Display only certified procedures to public</h5>
+    <p class="meta-data">Admin interface | Public layout</p>
+    <p>This feature allow a system to display fully certified procedures to the public. A fully certified procedure is a procedure which steps are all certified. This <strong>not recommended</strong> feature can be set in Public interface / Layout homepage / Top menus.</p>
+    <img src="/images/log/show-only.png"  style="max-width: 270px;">
+  </li>
+
+</ul>

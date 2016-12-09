@@ -2,6 +2,10 @@ body {
     background-color: #ebebeb;
 }
 
+img {
+	max-width: 100%;
+}
+
 * + h4 {
 	margin-top: 24px;
 }
