@@ -2,7 +2,7 @@
 layout: doc-pages
 lang: en
 permalink: "/documentation/activity-log"
-title: '17. Activity log
+title: '17. Activity log'
 ref: activity-log
 weight: 18
 ---

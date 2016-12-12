@@ -7,7 +7,7 @@ visible: true
 weight: 401
 ---
 
-# v 4.0.1   <small>Applied on December 10th, 2016</small>
+# v 4.0.1   <small>10/12/2016 ✔</small>
 
 <p class="alert alert-warning">This update is a batch of ideas from the Salvadorian eRegulations team assisted by Claudia Cáceres.</p>
 
