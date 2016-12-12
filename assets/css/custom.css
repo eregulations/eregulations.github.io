@@ -524,6 +524,14 @@ h1 a:before, h2 a:before, h3 a:before {
 	content: "Modified";
 }
 
+.log-status {
+	padding-top: 12px;
+}
+
+.log-status .fa {
+	color: #4caf50;
+}
+
 /* responsive */
 @media screen and (max-width:767px) {
 	header {

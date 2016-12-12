@@ -16,6 +16,9 @@
 
     		<article class="col-lg-10 col-md-9 col-sm-9 main-content" role="main" id="content">
     			<div class="row post-content">
+						{% unless page.ref == "changelog" %}
+						<h1>v {{ page.number }} <small class="pull-right log-status"> {% if page.status %}<i class="fa fa-check"></i> {% endif %}{{ page.update }}</small></h1>
+						{% endunless %}
     				{{ content }}
     			</div>
     		</article>
