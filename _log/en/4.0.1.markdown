@@ -8,12 +8,12 @@ weight: 401
 number: "4.0.1"
 category: "changelog"
 status: "applied"
-update: "Applied on December 10th, 2016"
+update: "10/12/2016"
 updates:
  - status: 'added'
-   title: 'Duplicate block functionality'
+   title: 'Duplicate block'
  - status: 'added'
-   title:  'Duplicate procedure functionality'
+   title:  'Duplicate procedure'
  - status: 'updated'
    title: '"Show recourses" checked by default in procedures tree'
  - status: "updated"
