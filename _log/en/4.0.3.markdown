@@ -8,7 +8,7 @@ weight: 403
 number: "4.0.3"
 category: "changelog"
 status: 
-update: "planned on 15/12/2016"
+update: "planned on 17/12/2016"
 updates:
  - status: 'updated'
    title: 'Recourses are treated as contacts'
