@@ -9,7 +9,7 @@ visible: true
 
 # Change log
 
-{% assign logs = site.log | where: "lang", page.lang | where: "category", "changelog" | sort: "weight" | reverse %}
+{% assign logs = site.log | where: "lang", page.lang | where: "category", "changelog" | where: "visible", true | sort: "weight" | reverse %}
 
 {% for log in logs %}
 ### v {{ log.number }}  <small class="{{ log.status }}">{{ log.update }} [(detail]({{ log.permalink }}))</small>
