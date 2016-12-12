@@ -1,0 +1,66 @@
+---
+layout: logs-pages
+lang: en
+permalink: "/log/4.0.2/"
+ref: changelog-402
+visible: false
+weight: 402
+number: "4.0.2"
+category: "changelog"
+status: 
+update: "planned on 13/12/2016"
+updates:
+ - status: 'removed'
+   title: 'No more "This step is subjected to a cost"'
+ - status: 'added'
+   title:  'Cost type selector to chose between fixed, % and "per"'
+ - status: 'added'
+   title: 'Adding a variable of a cost directly from the cost settings'
+ - status: "removed"
+   title: 'No more "Upload from FTP" button for uploading medias'
+ - status: 'removed'
+   title: 'No more "Description" field for each document'
+ - status: 'removed'
+   title: 'No more "Has document attached" checkbox for each document'
+---
+
+<p class="alert alert-warning">This update is a simplification of the costs and the removal of buttons that are not used.</p>
+
+
+<ul class="list-view">
+  <li>
+    <h5>No more "This step is subjected to a cost"</h5>
+    <p class="meta-data">Admin interface | Step | Costs</p>
+    <p>There is no need to specify if there is a cost, the “This step is subjected to costs” setting has been removed.</p>
+  </li>
+  <li>
+    <h5>Cost type selector to chose between fixed, % and 'per'</h5>
+    <p class="meta-data">Admin interface | Step | Costs</p>
+    <p>Before, the types of costs (fixed, percentage, per) were not clear. With this update, there is now a costs type selector before the costs fields. </p>
+    <img src="/images/log/new-cost-selector.png" style="max-width:400px;">
+  </li>
+  <li>
+    <h5>Adding a variable of a cost directly from the cost settings</h5>
+    <p class="meta-data">Admin interface | Step | Costs</p>
+    <p>The variable of a cost can be added simply by typing it in the Variable field of the cost setting.</p>
+  </li>
+
+  <li>
+    <h5>No more "Upload from FTP" button for uploading medias</h5>
+    <p class="meta-data">Admin interface | Step | Documents</p>
+    <p>The “Select from FTP” has been removed. No one uses it and it is not necessary anymore as the system is fast.</p>
+  </li>
+
+  <li>
+    <h5>No more "Description" field for each document</h5>
+    <p class="meta-data">Admin interface | Step | Documents</p>
+    <p>The field “Description” of each requirement, result, law, has been removed. The field was never used.</p>
+  </li>
+
+  <li>
+    <h5>No more "Has document attached" checkbox for each document</h5>
+    <p class="meta-data">Admin interface | Step | Documents</p>
+    <p>The checkbox “Has document attached” of each requirement, result, law, has been removed. The checkbox was never used, it had no effect.</p>
+  </li>
+
+</ul>

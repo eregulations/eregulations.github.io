@@ -5,12 +5,26 @@ permalink: "/log/4.0.1/"
 ref: changelog-401
 visible: true
 weight: 401
+number: "4.0.1"
+category: "changelog"
+status: "applied"
+update: "10/12/2016"
+updates:
+ - status: 'added'
+   title: 'Duplicate block'
+ - status: 'added'
+   title:  'Duplicate procedure'
+ - status: 'updated'
+   title: '"Show recourses" checked by default in procedures tree'
+ - status: "updated"
+   title: 'Tree items are closed by default - only current element subtree is open'
+ - status: 'updated'
+   title: 'Infinite number of logos in header and footer'
+ - status: 'added'
+   title: 'Display only certified procedures to public'
 ---
 
-# v 4.0.1   <small>Applied on December 10th, 2016</small>
-
 <p class="alert alert-warning">This update is a batch of ideas from the Salvadorian eRegulations team assisted by Claudia Cáceres.</p>
-
 <ul class="list-view">
   <li>
     <h5>Duplicate block</h5>
