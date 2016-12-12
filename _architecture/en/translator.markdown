@@ -26,7 +26,7 @@ The interface is completely different from the Admin Web Application and it is b
 <li>menus</li>
 </ul>
 
-<p>The translator interface access a replica version of the content that is recorded in special tables after an explicit action from the admin interface. The explicit action is "Send to translator".</p> 
+<p>The translator interface access a replica version of the content that is recorded in special tables after an explicit action from the admin interface. The explicit action is "Send to translator".</p>
 <p>The idea behind this specialized interface is to create a decoupled working space to external users of the system. Their work will not directly affect the eRegulation content. The translator can work in a parallel space and only when their work is fully completed they can commit the translation at which time the data is copied back into the " _i18n" tables in the admin space. The administrator can then validate (publish) the translation or can directly make some final corrections.
 When the administrator is sending an element to translator the system makes a full copy of that object and also its current translation data, it serializes it into XML format ans saves that data in specialized tables : "XMLSerializedItem" and "XMLSerializedItem_i18n".</p>
 
@@ -37,7 +37,7 @@ When the administrator is sending an element to translator the system makes a fu
 	<li>stop working on element</li>
 </ul>
 
-In order to take into account the time implications of the translation activity the system records the version of the data in the original language and also a version of the translation: 
+In order to take into account the time implications of the translation activity the system records the version of the data in the original language and also a version of the translation:
 
 <ul>
 	<li>the version of the original data is incremented each time the administrator "re-demands" a translation after a previous translation has been commited or it has the status "working in progress".</li>
@@ -61,9 +61,9 @@ The translation can be in one status at one time:
 <p>The challenge of this application was to isolate the working of the translator from the main repository. Keep the admin data to fuel the public and the snapshot tables and also have a version of the data that the translator can focus on. Also all the eRegulations applications must share the domain model.</p>  
 <p>We illustrate in the static diagram below translation contracts used for this module :</p>
 
-<img src="/images/architecture/Translator_Static_Diagram.png" alt="Translator Static Diagram" title="Translator_Static_Diagram.png" border="0" width="570" height="600" class="img2" />
+<a class="item" href="/images/architecture/Translator_Static_Diagram.png"><img src="/images/architecture/Translator_Static_Diagram.png" alt="Translator Static Diagram" title="Translator_Static_Diagram.png" border="0" width="570" height="600" class="img2" /></a>
 
-<p>For assuring the independent working space we used the idea of storing a serialized version of the model and reconstruct it for the translator application only.</p> 
+<p>For assuring the independent working space we used the idea of storing a serialized version of the model and reconstruct it for the translator application only.</p>
 <p>The translator admin application is working with only 4 tables:</p>
 <ul>
 
@@ -98,4 +98,3 @@ The client side code is capable of passing a "diff" algorithm to all the fields 
 <h2 id="p3">3. Data structure</h2>
 
 The translator data structure is <a href="/architecture/data-structure/">here</a>.
-

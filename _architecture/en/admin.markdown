@@ -50,7 +50,9 @@ weight: 2
 <p>Also for the web application we implemented the Model View Presenter pattern and define the views as interfaces gaining in flexibility of implementing the view interfaces as ASPX pages or as customized views for Ajax requests.</p>
 <p>The domain modeling respects the Domain Design Driven principles by defining several Root Aggregate Model responsible for the persistence of all their collections of composite models.</p>
 <p>We illustrate in the following diagram the layered architecture of the solution :</p>
-<img src="/images/installation/eRegulations_Admin_Architecture.png" title="eRegulations_Admin_Architecture.png" border="0" width="589" height="600"/>
+<a class="item" href="/images/installation/eRegulations_Admin_Architecture.png">
+	<img src="/images/installation/eRegulations_Admin_Architecture.png" title="eRegulations_Admin_Architecture.png" border="0" width="589" height="600"/>
+</a>
 
 <h2>2. Data-concepts and states</h2>
 <p>The system is built around the following main concepts:</p>
@@ -97,7 +99,7 @@ weight: 2
 		<p>The following diagram describe the lifecycle of a Step, and the actions which will change its present state :</p>
 	</div>
 	<div class="span4">
-		<img src="/images/installation/specs2.png" width="156" height="232"/>
+		<a class="item" href="/images/installation/eRegulations_Admin_Architecture.png"><img src="/images/installation/eRegulations_Admin_Architecture.png" width="156" height="232"/></a>
 	</div>
 </div>
 <p>When published the data is stored in a different format that is less normalized, still highly optimized for data-consumption systems.</p>
@@ -109,7 +111,7 @@ weight: 2
 <h2 id="p3">3. Domain model</h2>
 <h4>Step context diagram</h4>
 The diagram below will illustrate as example the domain modeling of the Step as the Root Aggregate Class and all the collection of bound classes.
-<img src="http://help.eregulations.org/wp-content/uploads/2013/06/StepContextDiagram.png" alt="StepContextDiagram" title="StepContextDiagram.PNG" border="0" width="600" height="496" class="img2"/>  
+<a class="item" href="http://help.eregulations.org/wp-content/uploads/2013/06/StepContextDiagram.png"><img src="http://help.eregulations.org/wp-content/uploads/2013/06/StepContextDiagram.png" alt="StepContextDiagram" title="StepContextDiagram.PNG" border="0" width="600" height="496" class="img2"/></a>
 
 The entire model of the eRegulations system has been implemented following a Domain Driven Design approach.
 
@@ -123,7 +125,7 @@ The structure of the data is <a href="http://help.eregulations.org/?p=5680#p1" t
 	<li>triggering an action on the page (update information, publish, change the order of elements, etc)</li>
 </ul>
 <h4>Requesting a new page</h4>
-<img src="http://help.eregulations.org/wp-content/uploads/2013/06/Page_Get_Sequence_Diagram.png" alt="Page Get Sequence Diagram" title="Page_Get_Sequence_Diagram.png" border="0" width="600" height="477" class="img2" />
+<a class="item" href="http://help.eregulations.org/wp-content/uploads/2013/06/Page_Get_Sequence_Diagram.png"><img src="http://help.eregulations.org/wp-content/uploads/2013/06/Page_Get_Sequence_Diagram.png" alt="Page Get Sequence Diagram" title="Page_Get_Sequence_Diagram.png" border="0" width="600" height="477" class="img2" /></a>
 <p>Requesting a new page will involve the creation of a new instance of System.Web.UI.Page. Depending on the page requested the Asp.Net Page must implement the correspondent IView interface.</p>
 <div class="alert alert-success" >We will exemplify for viewing the details page of one step:<br/>
 1. User makes a request in the browser by clicking on a hyperlink. The request will send as a query parameter the ID of the requested step.</div>
@@ -132,7 +134,7 @@ Here the sequence of code:
 	<li>IIS identifies the requested resource as "StepGeneral.aspx" inside the admin application, so it forwards the request to our application</li>
 	<li>Asp.Net creates a new instance of the object "Views_Regulation_StepGeneral"</li>
 	<li>Asp.Net trigger the event "Page_Load"</li>
-	<li>Inside the "Page_Load" we create a new instance of the presenter sending in the constructor the current instance of Views_Regulation_StepGeneral as this class implements the interface IStepView and the AppContext which is an application context that travels through all the layers. The AppContext is created each time a request is intercepted by our application. It is cached through the duration of the request in the HttpContext</li>	
+	<li>Inside the "Page_Load" we create a new instance of the presenter sending in the constructor the current instance of Views_Regulation_StepGeneral as this class implements the interface IStepView and the AppContext which is an application context that travels through all the layers. The AppContext is created each time a request is intercepted by our application. It is cached through the duration of the request in the HttpContext</li>
 	<li>the newly created presenter will call the method InitView send the stepId as parameter</li>
 	<li>the presenter holds all the presentation logic. It has a reference of the "IView" interface which will use for displaying the information. Still is not aware of how this interface is implemented (in our case is the System.Web.UI.Page)</li>
 	<li>the presenter will create a new instance of the BusinessObjectAPI related to our need (in our case StepBO)</li>
@@ -147,7 +149,7 @@ Here the sequence of code:
 </ol>
 <br/>
 <h4>Trigger an action on the page (update)</h4>
-<img src="http://help.eregulations.org/wp-content/uploads/2013/06/Page_Post_Sequence_Diagram.png" alt="Page Post Sequence Diagram" title="Page_Post_Sequence_Diagram.png" border="0" width="600" height="590" class="img2" />
+<a class="item" href="http://help.eregulations.org/wp-content/uploads/2013/06/Page_Post_Sequence_Diagram.png"><img src="http://help.eregulations.org/wp-content/uploads/2013/06/Page_Post_Sequence_Diagram.png" alt="Page Post Sequence Diagram" title="Page_Post_Sequence_Diagram.png" border="0" width="600" height="590" class="img2" /></a>
 <p>Sending a post request to the server is 99% made through an Ajax call (with a XMLHttpRequest). The end point is a static method in the aspx page having the attribute [WebMethod].</p>
 <p>Inside this static method we create an instance of the custom view that implements our IView interface (IStepView). We will use the same presenter (StepPresenter) together with our custom view in order to achieve our updating purpose. The difference is the transport of all the data that the browser will exchange with the server. In the case of the Ajax call we encapsulate the data in Data Transfer Objects (DTO) which are light objects holding only property fields. In the case of classic Http post request the transport would have been the form input collection send either encoded in the url as query string or send as payload inside the body of the http request message.</p>
 <p>

@@ -35,7 +35,7 @@ weight: 4
 <p>The architecture of the Admin Web Application follows a 3-tiers design : Data, Business, Presentation. The Presentation implements a Model-View-Controller design pattern.</p>
 
 
-<img src="/images/architecture/eRegulations_Public_Architecture.png" alt="ERegulations Public Architecture" title="eRegulations_Public_Architecture.png" border="0" width="600" class="img2"/>  
+<a class="item" href="/images/architecture/eRegulations_Public_Architecture.png"><img src="/images/architecture/eRegulations_Public_Architecture.png" alt="ERegulations Public Architecture" title="eRegulations_Public_Architecture.png" border="0" width="600" class="img2"/></a>
 
 
 <p>The business layer is occupied by the reusable business library described in the Admin Web Application chapter.</p>
