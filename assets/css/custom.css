@@ -539,6 +539,20 @@ h1 a:before, h2 a:before, h3 a:before {
 	height: 30px;
 }
 
+.doc-page-content {
+	position: relative;
+}
+
+.doc-page-content > h1:first-child {
+	padding-right: 150px;
+}
+
+.doc-video-button {
+	position: absolute;
+	right: 25px;
+	top: 50px;
+}
+
 /* responsive */
 @media screen and (max-width:767px) {
 	header {

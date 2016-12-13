@@ -5,11 +5,10 @@ permalink: "/documentation/login"
 title: '3. Log in'
 ref: login
 weight: 4
+video: https://vimeo.com/146894250
 ---
 
 # Log in
-
-<a href="https://vimeo.com/146894250" target="_blank" class="btn btn-warning">See video here</a>
 
 There are several types of system administrators with different rights: editors, validators, translators, publishers, super administrators, etc.
 <strong>They all enter through the entry to the administrative part</strong>, their user/password determines the type of interface to which they can have access to.
