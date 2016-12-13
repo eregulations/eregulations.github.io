@@ -9,13 +9,14 @@
 
     <main class="container-fluid">
     	<div class="row">
-    		
+
     		<aside class="col-lg-2 col-md-3 col-sm-3 sidebar">
     			{% include sidemenu-documentation.html %}
     		</aside>
 
     		<article class="col-lg-10 col-md-9 col-sm-9 main-content" role="main" id="content">
-    			<div class="row post-content">
+    			<div class="row post-content doc-page-content">
+						{% if page.video %}<a href="{{ page.video }}" target="_blank" class="btn btn-warning doc-video-button">See video here</a>{% endif %}
     				{{ content }}
     			</div>
     		</article>
