@@ -1,14 +1,14 @@
 ---
 layout: logs-pages
 lang: en
-permalink: "/log/4.0.4/"
-ref: changelog-404
+permalink: "/log/4.2/"
+ref: changelog-420
 visible: false
-weight: 404
-number: "4.0.4"
+weight: 420
+number: "4.2"
 category: "changelog"
-status: 
-update: "planned on 17/12/2016"
+status:
+update: "planned on 20/12/2016"
 updates:
  - status: 'updated'
    title: 'Results come from the document database'
@@ -25,7 +25,7 @@ updates:
     <p class="meta-data">Admin interface | Step | Results</p>
 	<p>Before, results are created from the step itself. With this update, result is added to the step from the “documents database”.</p>
 	<p>If the result does not exist in the “documents database” it is created in the database and then added to the step - exactly as the requirements work.</p>
-	<img src="/images/log/add-result-after.png" style="max-width: 530px;">
+	<a class="item" href="/images/log/add-result-after.png"><img src="/images/log/add-result-after.png" style="max-width: 530px;"></a>
   </li>
 
   <li>

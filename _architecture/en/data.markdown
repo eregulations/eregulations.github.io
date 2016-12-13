@@ -85,7 +85,7 @@ See in the diagram below the two major roles played by eRegulations API server :
 </ul>
 
 
-<img src="/images/architecture/apidiagramm.png" alt="NewImage" title="apidiagramm.png" border="0" width="600" height="328" class="img2" />  
+<a class="item" href="/images/architecture/apidiagramm.png"><img src="/images/architecture/apidiagramm.png" alt="NewImage" title="apidiagramm.png" border="0" width="600" height="328" class="img2" /></a>
 
 
 <h3>Directory structure</h3>
@@ -146,4 +146,3 @@ communication with the database, exposing business objects implementing differen
 <li><strong>util</strong> - generic utility functions</li>
 
 </ul>
-

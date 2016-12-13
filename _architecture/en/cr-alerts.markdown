@@ -16,7 +16,7 @@ weight: 6
 
 <h2 id="p1">1. Application architecture</h2>
 
-<img src="/images/architecture/eRegulations_CR_Alerts_Architecture.png" alt="ERegulations CR Alerts Architecture" title="eRegulations_CR_Alerts_Architecture.png" border="0" width="600" height="816" class="img2" />
+<a class="item" href="/images/architecture/eRegulations_CR_Alerts_Architecture.png"><img src="/images/architecture/eRegulations_CR_Alerts_Architecture.png" alt="ERegulations CR Alerts Architecture" title="eRegulations_CR_Alerts_Architecture.png" border="0" width="600" height="816" class="img2" /></a>
 
 <p>The CRAlerts BusinessObject API uses 4 data aggregators :</p>
 
@@ -31,7 +31,7 @@ weight: 6
 
 ```
 void CalculateStatistics(ConsultantUser user, IList<StructuredProcedure> data,ref Dictionary<string, object> DataBag);
-``` 
+```
 
 <p>The systems uses the <strong>Moustache</strong> template engine for building the html body of all the emails.</p>
 
@@ -45,7 +45,7 @@ void CalculateStatistics(ConsultantUser user, IList<StructuredProcedure> data,re
 <p>The config file, usually named "systems.xml" it must be written in the XML format and should have the with the following structure:</p>
 
 
-<img src="/images/architecture/xml_mihai.png" alt="Xml mihai" title="xml_mihai.png" border="0" width="600" height="315" class="img2"/>
+<a class="item" href="/images/architecture/xml_mihai.png"><img src="/images/architecture/xml_mihai.png" alt="Xml mihai" title="xml_mihai.png" border="0" width="600" height="315" class="img2"/></a>
 
 where:
 <ul>

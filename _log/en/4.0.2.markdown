@@ -3,12 +3,12 @@ layout: logs-pages
 lang: en
 permalink: "/log/4.0.2/"
 ref: changelog-402
-visible: false
+visible: true
 weight: 402
 number: "4.0.2"
 category: "changelog"
-status: 
-update: "planned on 13/12/2016"
+status:
+update: "planned on 14/12/2016"
 updates:
  - status: 'removed'
    title: 'No more "This step is subjected to a cost"'
@@ -37,7 +37,7 @@ updates:
     <h5>Cost type selector to chose between fixed, % and 'per'</h5>
     <p class="meta-data">Admin interface | Step | Costs</p>
     <p>Before, the types of costs (fixed, percentage, per) were not clear. With this update, there is now a costs type selector before the costs fields. </p>
-    <img src="/images/log/new-cost-selector.png" style="max-width:400px;">
+    <a class="item" href="/images/log/new-cost-selector.png"><img src="/images/log/new-cost-selector.png" style="max-width:400px;"></a>
   </li>
   <li>
     <h5>Adding a variable of a cost directly from the cost settings</h5>
