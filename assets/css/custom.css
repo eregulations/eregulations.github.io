@@ -532,6 +532,13 @@ h1 a:before, h2 a:before, h3 a:before {
 	color: #4caf50;
 }
 
+.log-detail-button {
+	line-height: 19px;
+	text-transform: uppercase;
+	padding: 0 12px;
+	height: 30px;
+}
+
 /* responsive */
 @media screen and (max-width:767px) {
 	header {
