@@ -22,7 +22,7 @@ updates:
    title: 'No more "Description" field for each document'
  - status: 'removed'
    title: 'No more "Has document attached" checkbox for each document'
- - status: 'added'
+ - status: 'updated'
    title: 'Safe empty recycle bin' 
  - status: 'added'
    title: 'URL input has "sort-url" feature'   
