@@ -1,11 +1,11 @@
 ---
 layout: logs-pages
 lang: en
-permalink: "/log/4.0.4/"
-ref: changelog-404
+permalink: "/log/4.2/"
+ref: changelog-420
 visible: false
-weight: 404
-number: "4.0.4"
+weight: 420
+number: "4.2"
 category: "changelog"
 status:
 update: "planned on 20/12/2016"
