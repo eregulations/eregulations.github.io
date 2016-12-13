@@ -8,3 +8,22 @@ weight: 4
 ---
 
 # Log in
+
+<a href="https://vimeo.com/146894250" target="_blank" class="btn btn-warning">See video here</a>
+
+There are several types of system administrators with different rights: editors, validators, translators, publishers, super administrators, etc.
+<strong>They all enter through the entry to the administrative part</strong>, their user/password determines the type of interface to which they can have access to.
+
+1. Click on 'MEMBERS' or type "http://admin.'name of city/country'.eregulations.org" in your browser's bar.
+
+2. A window opens: ‘Login to eRegulations admin'  
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/login2.png" alt="Login2" title="login2.png" border="0" width="374" height="224" class="img2" />
+
+
+3. Enter your username and password  
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/login3.png" alt="Login3" title="login3.png" border="0" width="377" height="231" class="img2" />
+
+
+4. Click on this button and <button class="btn  btn-inverse" type="button">Login</button>.
+
+If you remain <strong>inactive</strong> for more than 10 minutes in the administrative interface you are returned to the login page. Just enter your user/password to re-activate your session.

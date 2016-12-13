@@ -22,6 +22,10 @@ updates:
    title: 'No more "Description" field for each document'
  - status: 'removed'
    title: 'No more "Has document attached" checkbox for each document'
+ - status: 'added'
+   title: 'Safe empty recycle bin' 
+ - status: 'added'
+   title: 'URL input has "sort-url" feature'   
 ---
 
 <p class="alert alert-warning">This update is a simplification of the costs and the removal of buttons that are not used.</p>
@@ -62,5 +66,17 @@ updates:
     <p class="meta-data">Admin interface | Step | Documents</p>
     <p>The checkbox “Has document attached” of each requirement, result, law, has been removed. The checkbox was never used, it had no effect.</p>
   </li>
+
+  <li>
+    <h5>Safe empty recycle bin</h5>
+    <p class="meta-data">Admin interface | Procedure tree | Recycle bean</p>
+    <p>When emptying the recycle bin, the eventual step that are still published online will not be deleted.</p>
+  </li>
+
+  <li>
+    <h5>URL input has "sort-url" feature</h5>
+    <p class="meta-data">Admin interface | All URLs</p>
+  </li>
+
 
 </ul>
