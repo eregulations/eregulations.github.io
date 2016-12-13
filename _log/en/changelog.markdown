@@ -12,7 +12,7 @@ visible: true
 {% assign logs = site.log | where: "lang", page.lang | where: "category", "changelog" | where: "visible", true | sort: "weight" | reverse %}
 
 {% for log in logs %}
-### v {{ log.number }}  <small class="{{ log.status }}">{{ log.update }} [(detail]({{ log.permalink }}))</small>
+### v {{ log.number }}  <small class="{{ log.status }}">{{ log.update }} [detail]({{ log.permalink }}){: .btn.btn-default.btn-sm.pull-right.log-detail-button}</small>
 
 <ul class="changelog">
 	{% assign updates = log.updates %}
