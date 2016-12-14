@@ -1,0 +1,82 @@
+---
+layout: logs-pages
+lang: fr
+permalink: "/log/4.0.2/"
+ref: changelog-402
+visible: true
+weight: 402
+number: "4.0.2"
+category: "changelog"
+status: "applied"
+update: "14/12/2016"
+updates:
+ - status: 'removed'
+   title: 'Plus de "Cette étape est sujette à un coût"'
+ - status: 'added'
+   title:  'Sélectionner le type de coût parmi fixé, % et "par"'
+ - status: 'added'
+   title: 'Ajouter une variable de coût directement depuis la configuration du coût'
+ - status: "removed"
+   title: 'Plus de bouton "Charger depuis FTP"'
+ - status: 'removed'
+   title: 'Plus de champ "Description" pour chaque document'
+ - status: 'removed'
+   title: 'Plus de champ "A un document joint" pour chaque document'
+ - status: 'updated'
+   title: 'Vide corbeille protégé' 
+ - status: 'added'
+   title: 'Fonctionnalité de "short-url" pour les liens des documents'   
+---
+
+<p class="alert alert-warning">Cette mise à jour est une simplification des coûts et une suppression de boutons qui ne sont jamais utilisés.</p>
+
+
+<ul class="list-view">
+  <li>
+    <h5>Plus de "Cette étape est sujette à un coût"</h5>
+    <p class="meta-data">Interface admin | Étape | Coûts</p>
+    <p>Il n'est pas nécessaire de spécifier si un coût s'applique à l'étape, le check "Cette étape est sujette à un coût" a été supprimé.</p>
+  </li>
+  <li>
+    <h5>Sélectionner le type de coût parmi fixé, % et "par"</h5>
+    <p class="meta-data">Interface admin | Étape | Coûts</p>
+    <p>Avant cette mise à jour, les types de coûts n'étaient pas clairs. On peut maintenant facilement choisir le type de chaque coût.</p>
+    <a class="item" href="/images/log/new-cost-selector.png"><img src="/images/log/new-cost-selector.png" style="max-width:400px;"></a>
+  </li>
+  <li>
+    <h5>Ajouter une variable de coût directement depuis la configuration du coût</h5>
+    <p class="meta-data">Interface admin | Étape | Coûts</p>
+    <p>La variable de coût peut être facilement ajoutée depuis la page de configuration du coût, il n'y a plus besoin d'aller jusqu'à la page de "Paramètres nationaux".</p>
+  </li>
+
+  <li>
+    <h5>Plus de bouton "Charger depuis FTP"</h5>
+    <p class="meta-data">Interface admin | Étape | Documents</p>
+    <p>Le bouton "Charger depuis FTP" a été enlevé. Personne n'utilisait cette fonctionnalité qui avait été pensée quand le système était très lent.</p>
+  </li>
+
+  <li>
+    <h5>Plus de champ "Description" pour chaque document</h5>
+    <p class="meta-data">Interface admin | Étape | Documents</p>
+    <p>Le champ "Description" de chaque document nécessaire, résultat, justification légale, a été enlevé. Ce champ n'était jamais utilisé.</p>
+  </li>
+
+  <li>
+    <h5>Plus de case "A un document joint" pour chaque document</h5>
+    <p class="meta-data">Interface admin | Étape | Documents</p>
+    <p>La case de "A un document joint" de chaque document nécessaire, résultat, justification légale, a été enlevée. Cette case n'était jamais utilisée.</p>
+  </li>
+
+  <li>
+    <h5>Vide corbeille protégé</h5>
+    <p class="meta-data">Interface admin | Arbre des procédures | Corbeille</p>
+    <p>Lors du vidage de la corbeille, les éventuelles étapes toujours publiées ne sont pas supprimées.</p>
+  </li>
+
+  <li>
+    <h5>Fonctionnalité de "short-url" pour les liens des documents</h5>
+    <p class="meta-data">Interface admin | Toutes les URLs</p>
+  </li>
+
+
+</ul>

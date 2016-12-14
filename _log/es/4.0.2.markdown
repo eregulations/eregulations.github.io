@@ -1,0 +1,82 @@
+---
+layout: logs-pages
+lang: es
+permalink: "/log/4.0.2/"
+ref: changelog-402
+visible: true
+weight: 402
+number: "4.0.2"
+category: "changelog"
+status: "applied"
+update: "14/12/2016"
+updates:
+ - status: 'removed'
+   title: 'No mas "Este paso es sujeto a un costo"'
+ - status: 'added'
+   title:  'Tipo de costo seleccionado entre fijo, % y "por"'
+ - status: 'added'
+   title: 'Añadir una variable de costo directamente desde la configuración de los costos'
+ - status: "removed"
+   title: 'No mas botón "Cargar desde FTP" para cargar medias'
+ - status: 'removed'
+   title: 'No mas campo "Descripción" para cada documento'
+ - status: 'removed'
+   title: 'No mas campo "Tiene documento adjunto" para cada documento'
+ - status: 'updated'
+   title: 'Vacío de papelera seguro' 
+ - status: 'added'
+   title: 'Funcionalidad de "short-url" para los enlaces'   
+---
+
+<p class="alert alert-warning">This update is a simplification of the costs and the removal of buttons that are not used.</p>
+
+
+<ul class="list-view">
+  <li>
+    <h5>No mas "Este paso es sujeto a un costo"</h5>
+    <p class="meta-data">Interfáz administrativa | Paso | Costos</p>
+    <p>No hace falta de mencionar si un paso tiene o no un costo, la casilla "Este paso es sujeto a un costo" ha sido borrada.</p>
+  </li>
+  <li>
+    <h5>Tipo de costo seleccionado entre fijo, % y "por"</h5>
+    <p class="meta-data">Interfáz administrativa | Paso | Costos</p>
+    <p>Antes, no era muy claro de determinar los tipos de costos (fijo, percentage, per). Con esta actualización, se debe elejir un tipo de costo para configurar un costo.</p>
+    <a class="item" href="/images/log/new-cost-selector.png"><img src="/images/log/new-cost-selector.png" style="max-width:400px;"></a>
+  </li>
+  <li>
+    <h5>Añadir una variable de costo directamente desde la configuración de los costos</h5>
+    <p class="meta-data">Interfáz administrativa | Paso | Costos</p>
+    <p>La variable de costo puede ser agregada directamente desde la configuración del costo. No hace falta ir hasta la pagina de Parametros nacionales.</p>
+  </li>
+
+  <li>
+    <h5>No mas botón "Cargar desde FTP" para cargar medias</h5>
+    <p class="meta-data">Interfáz administrativa | Paso | Documentos</p>
+    <p>El botón “Cargar desde FTP” ha sido borrado. Nadie lo usa y no ya no es necesario desde que el sistema es más rápido.</p>
+  </li>
+
+  <li>
+    <h5>No mas campo "Descripción" para cada documento</h5>
+    <p class="meta-data">Interfáz administrativa | Paso | Documentos</p>
+    <p>El campo "Descripción" de cada documento, resultado, justificación legal ha sido borrado. Este campo no servía.</p>
+  </li>
+
+  <li>
+    <h5>No mas campo "Tiene documento adjunto" para cada documento</h5>
+    <p class="meta-data">Interfáz administrativa | Paso | Documentos</p>
+    <p>El campo "Tiene documento adjunto" de cada documento, resultado, justificación legal ha sido borrado. Este campo no servía.</p>
+  </li>
+
+  <li>
+    <h5>Vacío de papelera seguro</h5>
+    <p class="meta-data">Interfáz administrativa | Arbol de procedimiento | Papelera</p>
+    <p>Cuando uno vacía la papelera, los pasos todavía publicados no son borrados.</p>
+  </li>
+
+  <li>
+    <h5>Funcionalidad de "short-url" para los enlaces</h5>
+    <p class="meta-data">Interfáz administrativa | URLs</p>
+  </li>
+
+
+</ul>
