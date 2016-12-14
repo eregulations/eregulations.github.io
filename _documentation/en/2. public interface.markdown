@@ -9,7 +9,7 @@ weight: 3
 
 # Public interface
 
-The public interface allows public to access the database through addresses of the following type:</p><p class="lead">http:// "country-or-city name".eregulations.org.
+The public interface allows public to access the database through addresses of the following type: <code>http:// "country-or-city-name".eregulations.org</code>.
 
 The site is composed of four levels:
 

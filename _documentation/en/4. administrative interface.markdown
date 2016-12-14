@@ -8,3 +8,243 @@ weight: 5
 ---
 
 # Administrative interface
+
+<a href="https://vimeo.com/147592519" target="_blank" class="btn btn-warning">See video here</a>
+
+All the data on procedures, steps, directories of institutions, laws, forms, photos, menus, texts, etc. are registered and modified through the administrative interface.  
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin1.png" alt="4admin1" title="4admin1.png" class="img2" />
+
+<h3>The administrative interface has three tabs:</h3>
+
+<div class="row">
+	<div class="col-md-9">
+	<h4>Content</h4>
+	<ul>
+		<li>Create and edit procedures</li>
+		<li>link to the database of institutions and civil servants</li>
+		<li>Link to the database of requirements (administrative forms, models etc.)</li>
+		<li>Link to the database of norms (laws, decrees, circulars, etc.)</li>
+		<li>Library of images and documents attached to elements of the database</li>
+		<li>Procedures translation</li>
+	</ul>
+	</div>
+	<div class="col-md-3">
+	<img src="http://help.eregulations.org/wp-content/uploads/2015/10/NewImage1.png" class="img2" style="padding:10px;"/>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-9">
+	<h4>Public interface</h4>
+	<ul>
+		<li>Home page layout</li>
+		<li>Create and edit menus</li>
+		<li>Menus translation</li>
+		<li>Contact page </li>
+	</ul>
+	</div>
+	<div class="col-md-3">
+	<img src="http://help.eregulations.org/wp-content/uploads/2015/10/public-inerface.png" alt="Public inerface" title="public inerface.png" class="img2"  style="padding:10px;"/>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-9">
+	<h4>System settings</h4>
+	<ul>
+		<li>Users link (create user profiles and access rights) </li>
+		<li>Feedback view (complaints or simplification ideas) sent by visitors of the system</li>
+		<li>Country parameters (local currency, costs variables, etc.)</li>
+		<li>System translation (administrative interfaces, labels, etc.)</li>
+		<li>Activity log (view of users' logs/activities in the system)</li>
+		<li>Maintenance of the system's media</li>
+	</ul>
+	</div>
+	<div class="col-md-3">
+		<img src="http://help.eregulations.org/wp-content/uploads/2015/10/system-settings1.png" alt="System settings" title="system settings.png" border="0"  style="padding:10px;" />
+	</div>
+</div>
+
+<hr>
+
+
+<div>
+<h2 id="p1">Content</h2>
+
+
+
+<table class="table" align="top">
+
+<tr>
+<td><strong>Procedures</strong></td>
+<td rowspan="2">
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin5.png" alt="4admin5" title="4admin5.png" border="0" width="334" height="132" class="img2" />
+</td></tr>
+<tr>
+<td>Access to the procedures' tree; create and edit objectives, blocks and steps.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6046" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Contacts database</strong></td>
+<td rowspan="2">
+ 
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin6.png" alt="4admin6" title="4admin6.png" border="0" width="343" height="118" class="img2" />
+</td></tr>
+<tr>
+<td>Direct access to edit contact details of institutions, departments and civil servants, without entering into the step's sheet.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6078" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Database of requirements</strong></td>
+<td rowspan="2">
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin7.png" alt="4admin7" title="4admin7.png" border="0" width="348" height="119" class="img2" /></td></tr>
+<tr>
+<td>Direct access to edit forms and generic models without entering the step's sheet.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6078" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Norms database</strong></td>
+<td rowspan="2">
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin8.png" alt="4admin8" title="4admin8.png" border="0" width="347" height="115" class="img2" /></td></tr>
+<tr>
+<td>Direct access to edit laws, decrees, circular files without entering the steps sheet<br/><br/>Go to <a href="http://help.eregulations.org/?p=6078" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Media Library</strong></td>
+<td rowspan="2"> 
+
+ <img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin9.png" alt="4admin9" title="4admin9.png" border="0" width="350" class="img2"/> 
+
+</td></tr>
+<tr>
+<td>Edit all documents attached to different elements of the database<br/><br/>Go to <a href="http://help.eregulations.org/?p=6083" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Procedures translation</strong></td>
+<td rowspan="2">
+
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin10.png" alt="4admin10" title="4admin10.png" border="0" width="350" height="85" class="img2" /></td></tr>
+<tr>
+<td>Select elements in the translator and check out the translations progress.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6089" target="_blank">the tutorial</a>.</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<hr>
+
+
+<div>
+<h2 id="p2">Public interface</h2>
+
+<table class="table" align="top">
+
+<tr>
+<td><strong>Homepage layout</strong></td>
+<td rowspan="2">
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin11.png" alt="4admin11" title="4admin11.png" border="0" width="350"  class="img2" /></td></tr>
+<tr>
+<td>Edit elements of the public interface: logos, titles, slideshow images, texts, select procedures menu you want to show under the slideshow, etc.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6038" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Menus</strong></td>
+<td rowspan="2">
+
+  
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin12.png" alt="4admin12" title="4admin12.png" border="0" width="350" height="138" class="img2" />
+</td></tr>
+<tr>
+<td>Create and edit menus and sub-menus, link them to procedures, etc.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6040" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Menus translation</strong></td>
+<td rowspan="2">  <img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin13.png" alt="4admin13" title="4admin13.png" border="0" width="350" class="img2" /> </td></tr>
+<tr>
+<td>Translate menus<br/><br/>Go to <a href="http://help.eregulations.org/?p=6091" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Contact page</strong></td>
+<td rowspan="2"><img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin14.png" alt="4admin14" title="4admin14.png" border="0" width="350" class="img2" /> </td></tr>
+<tr>
+<td>Edit the contact page create or edit members of the eRegulations team, in charge of the system.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6052/" target="_blank">the tutorial</a>.</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<hr>
+
+<div>
+<h2 id="p3">System Settings</h2>
+
+<table class="table" align="top">
+
+<tr>
+<td><strong>Users</strong></td>
+<td rowspan="2">
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin15.png" alt="4admin15" title="4admin15.png" border="0" width="350" class="img2"/>
+   </td></tr>
+<tr>
+<td>Create users and manage users' rights.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6036" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Feedback view</strong></td>
+<td rowspan="2">
+
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin16.png" alt="4admin16" title="4admin16.png" border="0" width="350" class="img2" /> </td></tr>
+<tr>
+<td>See the list of all comments, complaints or simplification ideas sent by users through the system<br/><br/>Go to <a href="http://help.eregulations.org/?p=6095" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Country parameters</strong></td>
+<td rowspan="2"><img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin17.png" alt="4admin17" title="4admin17.png" border="0" width="350" class="img2" /></td></tr>
+<tr>
+<td>Configure national parameters (local currency, etc.)in the system <br/><br/>Go to <a href="http://help.eregulations.org/?p=6087" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>System translation</strong></td>
+<td rowspan="2">
+
+<img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin18.png" alt="4admin18" title="4admin18.png" border="0" width="350" class="img2" />
+</td></tr>
+<tr>
+<td>Translate systems' lables and elements.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6089" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Activity log</strong></td>
+<td rowspan="2"><img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin19.png" alt="4admin19" title="4admin19.png" border="0" width="350" class="img2" /> </td></tr>
+<tr>
+<td>See which part of the system has been modified in the administrative interface with details of the user, time and date<br/><br/>Go to <a href="http://help.eregulations.org/?p=6093" target="_blank">the tutorial</a>.</td>
+</tr>
+
+<tr>
+<td><strong>Maintenance</strong></td>
+<td rowspan="2"><img src="http://help.eregulations.org/wp-content/uploads/2013/08/4admin20.png" alt="4admin20" title="4admin20.png" border="0" width="350" class="img2" /> </td></tr>
+<tr>
+<td>Change the name of documents in the media library.<br/><br/>Go to <a href="http://help.eregulations.org/?p=6083" target="_blank">the tutorial</a>.</td>
+</tr>
+
+</table>
+
+</div>
