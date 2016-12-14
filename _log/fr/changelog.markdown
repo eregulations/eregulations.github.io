@@ -7,7 +7,7 @@ weight: 100000
 visible: true
 ---
 
-# Log des mises à jour des systèmes eRegulations
+# Mises à jour des systèmes eRegulations
 
 {% assign logs = site.log | where: "lang", page.lang | where: "category", "changelog" | where: "visible", true | sort: "weight" | reverse %}
 
