@@ -520,8 +520,49 @@ h1 a:before, h2 a:before, h3 a:before {
 }
 
 /* ---- */
+
+.changelog>li:before {
+	font-size: 10px;
+}
+
 .changelog .ch-updated:before {
 	content: "Modified";
+}
+
+.changelog .ch-updated.fr:before {
+	content: "Modifié";
+}
+
+.changelog .ch-updated.es:before {
+	content: "Modificado";
+}
+
+.changelog .ch-updated.vn:before {
+	content: "Modified";
+}
+
+.changelog .ch-added.fr:before {
+	content: "Nouveau";
+}
+
+.changelog .ch-added.es:before {
+	content: "Nuevo";
+}
+
+.changelog .ch-added.vn:before {
+	content: "Added";
+}
+
+.changelog .ch-removed.fr:before {
+	content: "Supprimé";
+}
+
+.changelog .ch-removed.es:before {
+	content: "Borrado";
+}
+
+.changelog .ch-removed.vn:before {
+	content: "Removed";
 }
 
 .log-status {
