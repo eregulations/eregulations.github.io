@@ -1,14 +1,24 @@
 ---
-layout: page
+layout: logs-pages
 lang: es
-permalink: "/es/log"
+permalink: "/es/log/"
 ref: changelog
-weight: 1
+weight: 100000
+visible: true
 ---
 
-# System changelog es
+# Change log es
+
+{% assign logs = site.log | where: "lang", page.lang | where: "category", "changelog" | where: "visible", true | sort: "weight" | reverse %}
+
+{% for log in logs %}
+### v {{ log.number }}  <small class="{{ log.status }}">{{ log.update }} [detail]({{ log.permalink }}){: .btn.btn-default.btn-sm.pull-right.log-detail-button}</small>
 
 <ul class="changelog">
-	<li class="ch-added">New documentation pages</li>
-	<li class="ch-added">New changelog page</li>
+	{% assign updates = log.updates %}
+	{% for update in updates %}
+	<li class="ch-{{ update.status }}">{{ update.title }}</li>
+	{% endfor %}
 </ul>
+
+{% endfor %}
