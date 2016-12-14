@@ -15,7 +15,7 @@ updates:
  - status: 'added'
    title:  'Dupliquer la procédure'
  - status: 'updated'
-   title: '"Montrer les recours" sélectionné par défaut dans l'arbre des procédures'
+   title: '"Montrer les recours" sélectionné par défaut dans l arbre des procédures'
  - status: 'updated'
    title: 'Les éléments de l'arbre sont fermés par défaut - seul la branche concernée est ouverte'
  - status: 'updated'
@@ -27,6 +27,7 @@ updates:
 ---
 
 <p class="alert alert-warning">Cette mise à jour correspond à une liste d'idées envoyée par l'équipe du Salvador, assistée de Claudia Cáceres.</p>
+
 <ul class="list-view">
   <li>
     <h5>Dupliquer le bloc</h5>
