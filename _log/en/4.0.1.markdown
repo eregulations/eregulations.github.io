@@ -16,7 +16,7 @@ updates:
    title:  'Duplicate procedure'
  - status: 'updated'
    title: '"Show recourses" checked by default in procedures tree'
- - status: "updated"
+ - status: 'updated'
    title: 'Tree items are closed by default - only current element subtree is open'
  - status: 'updated'
    title: 'Infinite number of logos in header and footer'

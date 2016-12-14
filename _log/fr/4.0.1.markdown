@@ -16,7 +16,7 @@ updates:
    title:  'Dupliquer la procédure'
  - status: 'updated'
    title: '"Montrer les recours" sélectionné par défaut dans l'arbre des procédures'
- - status: "updated"
+ - status: 'updated'
    title: 'Les éléments de l'arbre sont fermés par défaut - seul la branche concernée est ouverte'
  - status: 'updated'
    title: 'Quantité infinie de logos dans les header et footer'

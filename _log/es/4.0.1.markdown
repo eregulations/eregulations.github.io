@@ -16,7 +16,7 @@ updates:
    title:  'Duplicar procedimiento'
  - status: 'updated'
    title: '"Mostrar recursos" seleccionado por defecto en el arból de procedimientos'
- - status: "updated"
+ - status: 'updated'
    title: 'Elementos de los arboles cerrados por defecto'
  - status: 'updated'
    title: 'Infinita cantidad de logos en los header y footer'
