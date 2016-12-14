@@ -1,7 +1,7 @@
 ---
 layout: logs-pages
 lang: es
-permalink: "/log/4.0.1/"
+permalink: "/es/log/4.0.1/"
 ref: changelog-401
 visible: true
 weight: 401
