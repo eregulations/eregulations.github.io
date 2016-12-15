@@ -23,6 +23,16 @@ index:
   fr: '/fr'
   vn: '/vn'
 
+# translations
+
+translations:
+  log:
+    planned:
+      en: "Planned on"
+      es: "Planificado el"
+      fr: "Prévu le"
+      vn: "Planned on"
+
 # Collections
 collections:
   documentation:
