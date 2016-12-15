@@ -7,8 +7,8 @@ visible: true
 weight: 403
 number: "4.0.3"
 category: "changelog"
-status: 
-update: "planned on 15/12/2016"
+status: "applied"
+update: "15/12/2016"
 updates:
  - status: 'added'
    title:  'New button "Obtain online"'
