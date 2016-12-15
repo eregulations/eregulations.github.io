@@ -13,7 +13,7 @@ updates:
  - status: 'updated'
    title: 'Recours traités comme les contacts'
  - status: 'removed'
-   title:  'Plus de "Montrer les recours" en haut de l'arbre des procédures'
+   title:  'Plus de "Montrer les recours" en haut de l arbre des procédures'
 ---
 
 <p class="alert alert-warning">This update is a simplification of the use of recourses in the system.</p>
