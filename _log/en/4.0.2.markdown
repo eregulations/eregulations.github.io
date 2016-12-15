@@ -7,8 +7,8 @@ visible: true
 weight: 402
 number: "4.0.2"
 category: "changelog"
-status:
-update: "planned on 14/12/2016"
+status: "applied"
+update: "14/12/2016"
 updates:
  - status: 'removed'
    title: 'No more "This step is subjected to a cost"'
@@ -25,7 +25,7 @@ updates:
  - status: 'updated'
    title: 'Safe empty recycle bin' 
  - status: 'added'
-   title: 'URL input has "sort-url" feature'   
+   title: 'URL input has "short-url" feature'   
 ---
 
 <p class="alert alert-warning">This update is a simplification of the costs and the removal of buttons that are not used.</p>
@@ -69,7 +69,7 @@ updates:
 
   <li>
     <h5>Safe empty recycle bin</h5>
-    <p class="meta-data">Admin interface | Procedure tree | Recycle bean</p>
+    <p class="meta-data">Admin interface | Procedure tree | Recycle bin</p>
     <p>When emptying the recycle bin, the eventual step that are still published online will not be deleted.</p>
   </li>
 

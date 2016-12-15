@@ -1,0 +1,32 @@
+---
+layout: logs-pages
+lang: fr
+permalink: "/fr/log/4.1/"
+ref: changelog-410
+visible: true
+weight: 410
+number: "4.1"
+category: "changelog"
+status: 
+update: "planned on 17/12/2016"
+updates:
+ - status: 'updated'
+   title: 'Recours traités comme les contacts'
+ - status: 'removed'
+   title:  'Plus de "Montrer les recours" en haut de l arbre des procédures'
+---
+
+<p class="alert alert-warning">This update is a simplification of the use of recourses in the system.</p>
+<ul class="list-view">
+  <li>
+    <h5>Recours traités comme les contacts</h5>
+    <p class="meta-data">Interface admin | Étape | Recours</p>
+    <p>Avant cette mise à jour, les recours étaient créés et administrés à l'extérieur des étapes.</p>
+    <p>Avec cette mise à jour, les recours sont créés directement dans l'onglet "Recours" de l'étape, de la même façon que sont gérés les contacts.</p>
+  </li>  
+  <li>
+    <h5>Plus de "Montrer les recours" en haut de l'arbre des procédures</h5>
+    <p class="meta-data">Interface admin | Étape | Recours</p>
+    <p>Cette case à cocher n'était plus nécessaire, elle a été supprimée.</p>
+  </li>
+</ul>

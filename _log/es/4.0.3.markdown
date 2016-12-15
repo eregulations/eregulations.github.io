@@ -1,7 +1,7 @@
 ---
 layout: logs-pages
-lang: en
-permalink: "/log/4.0.3/"
+lang: es
+permalink: "/es/log/4.0.3/"
 ref: changelog-403
 visible: true
 weight: 403
@@ -11,14 +11,14 @@ status: "applied"
 update: "15/12/2016"
 updates:
  - status: 'added'
-   title:  'New button "Obtain online"'
+   title:  'Nuevo botón "Obtener en línea"'
 ---
 
 <ul class="list-view">
   <li>
-    <h5>New button "Obtain online"</h5>
-    <p class="meta-data">Admin interface | Step | Results</p>
-    <p>The user can now choose if the online step is "Apply online" or "Obtain online".</p>
+    <h5>Nuevo botón "Obtener en línea"</h5>
+    <p class="meta-data">Interfáz admin | Paso | Resultados</p>
+    <p>El usuario puede elegir si el paso en línea es de tipo "Aplicar en línea" o "Obtener en línea".</p>
    <a class="item" href="/images/log/obtain-online.png"><img src="/images/log/obtain-online.png" style="max-width:100%"></a>
   </li>
 

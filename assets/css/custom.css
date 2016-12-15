@@ -573,8 +573,24 @@ h1 a:before, h2 a:before, h3 a:before {
 	color: #4caf50;
 }
 
+.log-excerpt {
+	position: relative;
+}
+
+.log-date {
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.log-date > span {
+	font-size: 14px;
+	color: #ccc;
+	margin-right: 12px;
+}
+
 .log-detail-button {
-	line-height: 19px;
+	line-height: 30px;
 	text-transform: uppercase;
 	padding: 0 12px;
 	height: 30px;

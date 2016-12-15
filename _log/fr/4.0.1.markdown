@@ -1,0 +1,80 @@
+---
+layout: logs-pages
+lang: fr
+permalink: "/fr/log/4.0.1/"
+ref: changelog-401
+visible: true
+weight: 401
+number: "4.0.1"
+category: "changelog"
+status: "applied"
+update: "10/12/2016"
+updates:
+ - status: 'added'
+   title: 'Dupliquer le bloc'
+ - status: 'added'
+   title:  'Dupliquer la procédure'
+ - status: 'updated'
+   title: '"Montrer les recours" sélectionné par défaut dans l arbre des procédures'
+ - status: 'updated'
+   title: "Les éléments de l'arbre sont fermés par défaut - seul la branche concernée est ouverte"
+ - status: 'updated'
+   title: 'Quantité infinie de logos dans les header et footer'
+ - status: 'added'
+   title: 'Liens dans le menu du haut'
+ - status: 'added'
+   title: 'Montrer seulement les procédures certifiées au public'
+---
+
+<p class="alert alert-warning">Cette mise à jour correspond à une liste d'idées envoyée par l'équipe du Salvador, assistée de Claudia Cáceres.</p>
+
+<ul class="list-view">
+  <li>
+    <h5>Dupliquer le bloc</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>Dans l'arbre des procédures, sélectionner un bloc. Un nouveau bouton <button type="button" class="btn btn-xs btn-warning">Dupliquer</button> apparaît. Ce bouton créer une copie du block contenant la copie des étapes du bloc copié.</p>
+    <a class="item" href="/images/log/duplicate-block.png"><img src="/images/log/duplicate-block.png" style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Dupliquer la procédure</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>Dans l'arbre des procédures, sélectionner une procédure. Un nouveau bouton <button type="button" class="btn btn-xs btn-warning">Dupliquer</button> apparaît. Ce bouton créer une copie de la procédure contenant la copie des blocs et étapes de la procédure copiée.</p>
+    <a class="item" href="/images/log/duplicate-procedure.png"><img src="/images/log/duplicate-procedure.png" style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Montrer les recours" sélectionné par défaut dans l'arbre des procédures</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>La case "Montrer les recours" est maintenant sélectionnée par défaut. L'objectif est d'éviter les confusions des administrateurs qui ne voient pas les recours dans l'arbre des procédures.</p>
+    <a class="item" href="/images/log/show-recourses.png"><img src="/images/log/show-recourses.png" style="max-width: 270px;"></a>
+  </li>
+  <li>
+    <h5>Les éléments de l'arbre sont fermés par défaut - seul la branche concernée est ouverte</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>Les éléments de l'arbre où l'usager ne se trouve pas sont fermés par défaut. Cela sert à ne pas afficher un arbre trop long dans les onglets "Général".</p>
+    <a class="item" href="/images/log/tree-closed.png"><img src="/images/log/tree-closed.png" style="max-width: 270px;"></a>
+  </li>
+
+  <li>
+    <h5>Quantité infinie de logos dans les header et footer</h5>
+    <p class="meta-data">Admin interface | Public layout, homepage</p>
+    <p>Il est maintenant possible d'ajouter autant de logos souhaités dans les header et footer d'un système eRegulations. Avant cette mise à jour, il n'était possible d'ajouter que 2 logos dans le header et 3 dans le footer.</p>
+    <a class="item" href="/images/log/add-logos.png"><img src="/images/log/add-logos.png"  style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Liens dans le menu du haut</h5>
+    <p class="meta-data">Admin interface | Public layout</p>
+    <p>Cette fonctionnalité permet de configurer des liens dans le menu du haut de eRegulations. Cette fonctionnalité est accessible depuis l'onget "Top-menus" dans la page de "Page publique".</p>
+    <a class="item" href="/images/log/show-only.png"><img src="/images/log/top-menus.png"  style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Montrer seulement les procédures certifiées au public</h5>
+    <p class="meta-data">Admin interface | Public layout</p>
+    <p>Cette fonctionnalité permet de n'afficher au public que les procédures certifiées. Une procédure certifiée est une procédure dont toutes les étapes sont certifiées. Il n'est <strong>pas recommandé</strong> d'utiliser cette fonctionnalité.</p>
+    <a class="item" href="/images/log/show-only.png"><img src="/images/log/show-only.png"  style="max-width: 270px;"></a>
+  </li>
+
+</ul>

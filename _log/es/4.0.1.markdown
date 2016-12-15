@@ -1,0 +1,79 @@
+---
+layout: logs-pages
+lang: es
+permalink: "/es/log/4.0.1/"
+ref: changelog-401
+visible: true
+weight: 401
+number: "4.0.1"
+category: "changelog"
+status: "applied"
+update: "10/12/2016"
+updates:
+ - status: 'added'
+   title: 'Duplicar bloque'
+ - status: 'added'
+   title:  'Duplicar procedimiento'
+ - status: 'updated'
+   title: '"Mostrar recursos" seleccionado por defecto en el arból de procedimientos'
+ - status: 'updated'
+   title: 'Elementos de los arboles cerrados por defecto'
+ - status: 'updated'
+   title: 'Infinita cantidad de logos en los header y footer'
+ - status: 'added'
+   title: 'Enlaces en el menu'
+ - status: 'added'
+   title: 'Mostrar solamente procedimientos certificados al público'
+---
+
+<p class="alert alert-warning">Esta actualización del sistema corresponde a las ideas del equipo salvadoreño asistido por Claudia Cáceres.</p>
+<ul class="list-view">
+  <li>
+    <h5>Duplicar bloque</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>En el árbol de procedimiento, seleccionar un bloque. Un nuevo botón <button type="button" class="btn btn-xs btn-warning">Duplicar</button> está disponible. Este botón crea una copia del bloque con una copia de los pasos contenidos en el bloque copiado.</p>
+    <a class="item" href="/images/log/duplicate-block.png"><img src="/images/log/duplicate-block.png" style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Duplicar procedimiento</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>En el árbol de procedimiento, seleccionar un procedimiento. Un nuevo botón <button type="button" class="btn btn-xs btn-warning">Duplicar</button> está disponible. Este botón crea una copia del procedimiento con una copia de los bloques y pasos contenidos en el procedimiento copiado.</p>
+    <a class="item" href="/images/log/duplicate-procedure.png"><img src="/images/log/duplicate-procedure.png" style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>"Mostrar recursos" seleccionado por defecto en el arbol de procedimientos</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>La casilla de verificación "Mostrar recursos" está ahora seleccionada por defecto (antés no era seleccionada). El propósito de esto es para evitar la confusión de no ser capaz de acceder a los recursos en el árbol de procedimientos.</p>
+    <a class="item" href="/images/log/show-recourses.png"><img src="/images/log/show-recourses.png" style="max-width: 270px;"></a>
+  </li>
+  <li>
+    <h5>Elementos de los arboles cerrados por defecto</h5>
+    <p class="meta-data">Admin interface | Procedure tree</p>
+    <p>Los arboles estan cerrados por defecto. Solo las parte del arbol en cual se encuentra el usuario esta abierta. Eso sirve para no desplegar un arbol demasiado grande en la pestaña "General".</p>
+    <a class="item" href="/images/log/tree-closed.png"><img src="/images/log/tree-closed.png" style="max-width: 270px;"></a>
+  </li>
+
+  <li>
+    <h5>Infinita cantidad de logos en los header y footer</h5>
+    <p class="meta-data">Admin interface | Public layout, homepage</p>
+    <p>Ahora es posible añadir tantos logotipos buscados en el encabezado y el pie de página. Para ello, utilice el enlace "Añadir nuevo logotipo", subir la imagen y llenar la url que se vinculará al logotipo. Antes de esta actualización, sólo era posible poner 2 logotipos en el encabezado y 3 en el pie de página.</p>
+    <a class="item" href="/images/log/add-logos.png"><img src="/images/log/add-logos.png"  style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Enlaces en el menu</h5>
+    <p class="meta-data">Admin interface | Public layout</p>
+    <p>Ahora se puede añadir enlaces custom en el menu de un sistema eRegulations. Esta funcionalidad se puede encontrar en Public interface / Layout homepage / Top menus.</p>
+    <a class="item" href="/images/log/show-only.png"><img src="/images/log/top-menus.png"  style="max-width: 800px;"></a>
+  </li>
+
+  <li>
+    <h5>Mostrar solamente procedimientos certificados al público</h5>
+    <p class="meta-data">Admin interface | Public layout</p>
+    <p>Esta característica permite que un sistema para visualizar procedimientos totalmente certificadas para el público. Un procedimiento totalmente certificado es un procedimiento en cual todos los pasos están certificados. Esto <strong>no es recomendable</strong>.</p>
+    <a class="item" href="/images/log/show-only.png"><img src="/images/log/show-only.png"  style="max-width: 270px;"></a>
+  </li>
+
+</ul>

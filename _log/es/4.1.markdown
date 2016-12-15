@@ -1,0 +1,32 @@
+---
+layout: logs-pages
+lang: es
+permalink: "/es/log/4.1/"
+ref: changelog-410
+visible: true
+weight: 410
+number: "4.1"
+category: "changelog"
+status: 
+update: "planned on 17/12/2016"
+updates:
+ - status: 'updated'
+   title: 'Recursos funcionan como contactos'
+ - status: 'removed'
+   title:  'No mas "Mostrar recursos" arriba del arbol de procedimientos'
+---
+
+<p class="alert alert-warning">Esta actualización es una simplificación del uso de los recursos, una idea del equipo de eRegulations Lomas de Zamora.</p>
+<ul class="list-view">
+  <li>
+    <h5>Recursos funcionan como contactos</h5>
+    <p class="meta-data">Admin interface | Step | Recourses</p>
+    <p>Antes de esta actualización, los recursos eran creados afuera del paso y luego enlazados con el paso.</p>
+    <p>Con esta actualización, el recurso esta creado directamente en la pestaña "Recurso" del paso, tal como se cree un contacto en la pestaña "Contacto".</p>
+  </li>  
+  <li>
+    <h5>No mas "Mostrar recursos" arriba del arbol de procedimientos</h5>
+    <p class="meta-data">Admin interface | Step | Recourses</p>
+    <p>Esta casilla ya no era necesaria con la actualización del recurso configurado en la pestaña "Recurso".</p>
+  </li>
+</ul>

@@ -7,12 +7,20 @@ weight: 100000
 visible: true
 ---
 
-# Change log
+# Updates of the eRegulations systems
 
 {% assign logs = site.log | where: "lang", page.lang | where: "category", "changelog" | where: "visible", true | sort: "weight" | reverse %}
 
 {% for log in logs %}
-### v {{ log.number }}  <small class="{{ log.status }} {{ log.lang }}">{{ log.update }} [detail]({{ log.permalink }}){: .btn.btn-default.btn-sm.pull-right.log-detail-button}</small>
+<div class="log-excerpt">
+
+<h3> v {{ log.number }} </h3>
+
+<div class="{{ log.status }} {{ log.lang }} log-date">
+	{% if log.status %}<span><i class="fa fa-check"></i></span>{% endif %}
+	<span>{{ log.update }}</span>
+	<a href="{{ log.permalink }}" class="btn btn-default btn-sm log-detail-button pull-right">detail</a>
+</div>
 
 <ul class="changelog">
 	{% assign updates = log.updates %}
@@ -22,3 +30,4 @@ visible: true
 </ul>
 
 {% endfor %}
+</div>
