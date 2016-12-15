@@ -9,6 +9,7 @@ weight: 1
 
 # eRegulations documentation
 
-champ de recherche
-
-index de tous les posts
+<div class="callout callout-danger" role="alert">
+  <h4>Warning</h4>
+  <p>We have not yet migrated the tutorials to this new version of the help site. Please go to the previous version on <a href="#" target="_blank">help.eregulations.org</a> to see the tutorials.</p>
+</div>
