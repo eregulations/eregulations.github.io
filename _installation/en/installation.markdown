@@ -7,7 +7,7 @@ ref: installation
 weight: 1
 ---
 
-# Installation
+# Installation of eRegulations system
 
 The eRegulations system is based on several interconnected applications being responsible for assuring data entry activities, pre-processing the information and presenting it to the internet user.
 The main eRegulations applications / components are listed below:
