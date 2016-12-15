@@ -581,12 +581,17 @@ h1 a:before, h2 a:before, h3 a:before {
 	position: absolute;
 	top:0;
 	right: 0;
+	font-size: 0;
 }
 
 .log-date > span {
 	font-size: 14px;
 	color: #ccc;
 	margin-right: 12px;
+}
+
+.log-date > span.log-status-text {
+	margin-right: 6px;
 }
 
 .log-detail-button {

@@ -17,7 +17,8 @@ visible: true
 <h3> v {{ log.number }} </h3>
 
 <div class="{{ log.status }} {{ log.lang }} log-date">
-	{% if log.status %}<span><i class="fa fa-check"></i></span>{% endif %}
+	{% if log.status == 'applied' %}<span class="log-status-text"><i class="fa fa-check"></i></span>{% endif %}
+	{% if log.status == 'planned' %}<span class="log-status-text">{{ site.translations.log.planned[page.lang] }}</span>{% endif %}
 	<span>{{ log.update }}</span>
 	<a href="{{ log.permalink }}" class="btn btn-default btn-sm log-detail-button pull-right">detail</a>
 </div>

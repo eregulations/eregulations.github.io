@@ -7,8 +7,8 @@ visible: true
 weight: 410
 number: "4.1"
 category: "changelog"
-status: 
-update: "planned on 17/12/2016"
+status: "planned"
+update: "17/12/2016"
 updates:
  - status: 'updated'
    title: 'Recursos funcionan como contactos'

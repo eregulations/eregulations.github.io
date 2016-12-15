@@ -7,8 +7,8 @@ visible: false
 weight: 420
 number: "4.2"
 category: "changelog"
-status:
-update: "planned on 20/12/2016"
+status: "planned"
+update: "20/12/2016"
 updates:
  - status: 'updated'
    title: 'Results come from the document database'
