@@ -8,7 +8,7 @@ weight: 410
 number: "4.1"
 category: "changelog"
 status: "planned"
-update: "17/12/2016"
+update: "18/12/2016"
 updates:
  - status: 'updated'
    title: 'Recours traités comme les contacts'
