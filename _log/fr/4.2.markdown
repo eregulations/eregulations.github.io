@@ -1,0 +1,38 @@
+---
+layout: logs-pages
+lang: fr
+permalink: "/fr/log/4.2/"
+ref: changelog-420
+visible: false
+weight: 420
+number: "4.2"
+category: "changelog"
+status: "planned"
+update: "21/12/2016"
+updates:
+ - status: 'updated'
+   title: 'Les résultats proviennent de la base de données des documents'
+ - status: 'updated'
+   title:  'La relation entre résultats et documents nécessaires est automatique'
+---
+
+<p class="alert alert-warning">Cette mise à jour est une simplification de la façon de gérer les résultats, notamment ceux qui sont des conditions dans d'autres étapes.</p>
+
+<ul class="list-view">
+
+  <li>
+    <h5>Les résultats proviennent de la base de données des documents</h5>
+    <p class="meta-data">Interface admin | Étape | Résultats</p>
+	<p>Avant cette mise à jour, les résultats étaient créés directement depuis l'étape. Avec cette mise à jour, les résultats sont maintenant ajoutés à l'étape depuis la "base de données des documents".</p>
+	<p>Si le résultat n'apparaît pas dans la "base de données des documents", il doit être créé dans cette base de données et ajouté à l'étape - exactement comme pour les documents nécessaires.</p>
+	<a class="item" href="/images/log/add-result-after.png"><img src="/images/log/add-result-after.png" style="max-width: 530px;"></a>
+  </li>
+
+  <li>
+    <h5>La relation entre résultats et documents nécessaires est automatique</h5>
+    <p class="meta-data">Interface admin | Étape | Résultats & conditions</p>
+    <p>Avant cette mise à jour, les documents nécessaires qui étaient résultats d'étapes antérieures apparaissaient dans la liste des documents avec un fond jaune et un type "Résultat d'étape antérieure".</p>
+    <p>Avec cette mise à jour, il se trouve que la liste des documents contient aussi la liste des résultats d'étapes (car ceux ci sont aussi des documents). Il n'y a donc plus de distinctions entre document générique et résultat.<br>Le système détecte automatiquement si un document nécessaire à une étape se trouve être aussi un résultat d'une étape antérieure (dans ce cas le document apparaitra avec un fond vert sur le résumé).</p>
+  </li>
+
+</ul>

@@ -1,0 +1,38 @@
+---
+layout: logs-pages
+lang: es
+permalink: "/es/log/4.2/"
+ref: changelog-420
+visible: false
+weight: 420
+number: "4.2"
+category: "changelog"
+status: "planned"
+update: "21/12/2016"
+updates:
+ - status: 'updated'
+   title: 'Resultados provienen de la base de datos de documentos'
+ - status: 'updated'
+   title:  'Relación resultado-requisito es automatica'
+---
+
+<p class="alert alert-warning">Esta actualización es una simplificación del uso de los resultados y los requisitos en el sistema eRegulations.</p>
+
+<ul class="list-view">
+
+  <li>
+    <h5>Resultados provienen de la base de datos de documentos</h5>
+    <p class="meta-data">Interfaz admin | Paso | Resultados</p>
+	<p>Antes de esta actualización, los resultados eran creados desde el paso. Ahora, el resultado proviene de la "base de datos de documentos”.</p>
+	<p>Si el resultado no existe en la base de datos de documentos, el documento debe ser creado y añadido al paso - de la misma forma que los requisitos.</p>
+	<a class="item" href="/images/log/add-result-after.png"><img src="/images/log/add-result-after.png" style="max-width: 530px;"></a>
+  </li>
+
+  <li>
+    <h5>Relación resultado-requisito es automatica</h5>
+    <p class="meta-data">Interfaz admin | Paso | Resultados & requisitos</p>
+    <p>Antes, los requisitos que eran resultados de pasos previos eran agregados desde la base de datos de documentos, donde aparecían con un fondo amarillo..</p>
+    <p>Con esta actualización, los requisitos son documentos que provienen de la base de datos de documentos. Que el requisito sea un resultado de un paso anterior no lo hace distinto en la lista de los documentos.<br>El sistema detecta automáticamente si un documento es resultado en un paso y requisito en un otro paso (en este caso el documento será verde el el resumen del procedimiento).</p>
+  </li>
+
+</ul>
