@@ -3,7 +3,7 @@ layout: logs-pages
 lang: en
 permalink: "/log/4.2/"
 ref: changelog-420
-visible: false
+visible: true
 weight: 420
 number: "4.2"
 category: "changelog"
