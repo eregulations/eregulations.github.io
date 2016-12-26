@@ -3,12 +3,12 @@ layout: logs-pages
 lang: en
 permalink: "/log/4.2/"
 ref: changelog-420
-visible: true
+visible: false
 weight: 420
 number: "4.2"
 category: "changelog"
 status: "planned"
-update: "21/12/2016"
+update: "31/12/2016"
 updates:
  - status: 'updated'
    title: 'Results come from the document database'
