@@ -8,7 +8,7 @@ weight: 420
 number: "4.2"
 category: "changelog"
 status: "planned"
-update: "21/12/2016"
+update: "29/12/2016"
 updates:
  - status: 'updated'
    title: 'Resultados provienen de la base de datos de documentos'
