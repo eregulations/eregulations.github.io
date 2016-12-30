@@ -7,7 +7,7 @@ visible: true
 weight: 420
 number: "4.2"
 category: "changelog"
-status: "planned"
+status: "applied"
 update: "29/12/2016"
 updates:
  - status: 'updated'
