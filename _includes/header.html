@@ -40,6 +40,14 @@
 					<li class="{% if page.url contains 'arch' or page.url contains 'arqu' %}active{% endif %}">
             <a href="{{ arch.baseurl[page.lang] | prepend: site.baseurl }}">{{ arch.title[page.lang] }}</a>
           </li>
+					<li>
+						<a href="#" id="btn-login" class="btn-login" data-toggle="modal" data-target=".login-modal">
+							<i class="fa fa-lock"></i>
+						</a>
+						<a id="btn-logout" class="btn-logout hidden">
+							<i class="fa fa-power-off"></i>
+						</a>
+					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle language-selector" data-toggle="dropdown">
 							<img src="{{ site.baseurl }}/images/{{ page.lang }}.png">

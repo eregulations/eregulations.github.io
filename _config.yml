@@ -35,6 +35,8 @@ translations:
 
 # Collections
 collections:
+  new:
+    output: true
   documentation:
     output: true
     title:
