@@ -28,7 +28,7 @@ to set it according to his/her interest :
 
 <a class="item" href="/images/news/filter2.png"><img src="/images/news/filter2.png" style="max-width: 800px;"></a>
 
-A click on the button "Search" would link to the expected procedure of "Export flowers to the European Union through JKIA airport".
+A click on "Search" button would link to the expected procedure of "Export flowers to the European Union through JKIA airport".
 
 
 Other examples of procedures that people search in eRegulations are: 
@@ -97,27 +97,92 @@ The changes brought by the filters feature will be the following:
 3. The menu pages as we know them will become less important. Their function was to list all the available procedure for a given objective, and provide explanation texts to the visitors about each procedure.<br>
 This function will be replaced by dynamic pages where user will be given a choice of links to procedure if his/her search results in more than one procedure.
 
-4. We give access to the procedures of the objective tree in the traditional menu of the top (under Procedures), so this menu seamlessly display what are the procedures available in the system. An option is also given to display the legacy menu links there too.
+4. We give access to the procedures of the objective tree in the traditional menu of the top (under Procedures), so this menu seamlessly display all the procedures available in the system.<br>If we prefer to display the old menus, an option is available to do so.
 
 
 ## Testing the filters
 
 ### How to configure the filters in an eRegistrations system ?
 
-For now, we configure the filters from the administrative interface. In several weeks, we will be able to do it from the public interface, once connected to an admin account.
 
-The filters are configured for each objective or sub-objective, in the procedures tree.
+<ul class="step-text">
+  <li>
+    <h5>Connect to the admin interface and go to the Procedures tree</h5>
+    <p>For now, we configure the filters from the administrative interface. In several weeks, we will be able to do it from the public interface, once connected to an admin account.</p>
+    <p>The filters are configured for each objective or sub-objective, in the procedures tree (that you access by clicking on Content / Procedures).</p>
+  </li>
+  <li>
+    <h5>Click on the expected objective, and go to the "Filters" tab</h5>
+    <p><a class="item" href="/images/news/filter3.png"><img src="/images/news/filter3.png" style="max-width: 800px;"></a></p>
+  </li>
 
-<a class="item" href="/images/news/filter3.png"><img src="/images/news/filter3.png" style="max-width: 800px;"></a>
+  <li>
+    <h5>Add a filter</h5>
+    <p>Click on the black button "Add a filter". It opens a window with the filters that have already been created in the system. You can click on one of them to reuse it. If the expected filter is not available, click on the button "New filter".</p>
+	<p><a class="item" href="/images/news/filter5.png"><img src="/images/news/filter5.png" style="max-width: 800px;"></a></p>
+	
+    <ul>
+      <li>
+        <h5>Give a name to your filter</h5>
+        <p>This name is used to recognised the filters in the admin interface, it will not appear on the public interface. Whatsoever it is recommended to give it a meaningful name.</p>
+      </li>
+      <li>
+        <h5>Add all the options of the filter</h5>
+        <p>An "option" is one possibility of value of the filter. It is possible to add more options after the creation of the filter, and to re-order the options among themselves.</p>
+        <p><a class="item" href="/images/news/filter6.png"><img src="/images/news/filter6.png" style="max-width: 420px;"></a></p>
+      </li>
+      <li>
+        <h5>Save the newly created filter</h5>
+        <p>If you do not save, the filter will not appear in the list. Note that we are thinking of removing all "Save" button in future versions of eRegulations, and have an "Autosave" function, as in Google Docs.</p>
+      </li>
+    </ul>
+  </li>
 
+  <li>
+    <h5>See the filter added in the "Filters" tab and give it a contextual name</h5>
+    <p>This name will be the label that will appear in the selector by default. It has to be meaningful so the user knows what to expect from the selector. It can be the same than the filters name.</p>
+  </li>
 
+  <li>
+    <h5>Check what option(s) apply to the current objective</h5>
+    <p>This links the procedure to one or more option(s) of the filter: when the option will be selected by the user from the public interface, this procedure will be the procedure (or one of the procedures) displayed to the user.</p>
+    <p><a class="item" href="/images/news/filter7.png"><img src="/images/news/filter7.png" style="max-width: 800px;"></a></p>
+  </li>
+  
+  <li>
+    <h5>Add all the other filters needed in the branch</h5>
+    <p>Repeat the steps 3, 4, 5 to add all the filters.</p>
+  </li>
+  
+  <li>
+    <h5>Browse all the objectives and sub-objectives and select the corresponding options of the filters.</h5>
+    <p>If a filter is missing, you can add it from anywhere in a branch. The filter will appear in all the branch.</p>
+    <p>If an option of a filter is missing, you can add it from anywhere in a branch. The option will appear for the given filter in all the branch.</p>
+  </li>    
+</ul>
+
+**Rules in the procedures tree**
+
+- If an option is selected for a filter in an objective, the option is selected by default in the children of the objective.
+
+- Any change in the filters names and options is applied in the all procedure tree.
 
 
 ### What to see on the public interface ?
 
+<div class="callout callout-info" role="alert">
+  <p>The filters are not yet ready from the homepage, so unfortunately you can not play with this new feature. However, the filters are already available from the pages of each objective.</p>
+</div>
 
+Once you have set all the filters and options that apply to each objectives and sub-objectives of the procedure tree, go to the public interface and access the page of each objective from the traditional menu under "Procedures". 
 
+You will see the filters, as per the example below: 
 
+<p><a class="item" href="/images/news/filter8.png"><img src="/images/news/filter8.png" style="max-width: 800px;"></a></p>
+
+You can then see if your filters configuration is right, and modify it if needed.
+
+Let Vianney and Roxana know if you find bugs or things that could be improved... Thank you!
 
 ## Systems under tests.
 
