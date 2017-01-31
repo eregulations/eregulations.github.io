@@ -161,28 +161,43 @@ This function will be replaced by dynamic pages where user will be given a choic
   </li>    
 </ul>
 
-**Rules in the procedures tree**
-
-- If an option is selected for a filter in an objective, the option is selected by default in the children of the objective.
-
-- Any change in the filters names and options is applied in the all procedure tree.
+<div class="callout callout-info" role="alert">
+	<h4>Rules in the procedures tree</h4>
+	<ul>
+		<li>If an option is selected for a filter in an objective, the option is selected by default in the children of the objective.</li>
+		<li>Any change in the filters names and options is applied in the all procedure tree.</li>
+	</ul>
+</div>
 
 
 ### What to see on the public interface ?
 
-<div class="callout callout-info" role="alert">
-  <p>The filters are not yet ready from the homepage, so unfortunately you can not play with this new feature. However, the filters are already available from the pages of each objective.</p>
+<div class="row">
+
+	<div class="col-md-6 col-sm-12"><p><a class="item" href="/images/news/filter8.png"><img src="/images/news/filter8.png" style="max-width: 100%;"></a></p>
 </div>
 
-Once you have set all the filters and options that apply to each objectives and sub-objectives of the procedure tree, go to the public interface and access the page of each objective from the traditional menu under "Procedures". 
+	<div class="col-md-6 col-sm-12">
+		<p>The filters are not yet ready from the homepage, so unfortunately you can not play with this new feature. However, the filters are already available from the pages of each objective.</p>
 
-You will see the filters, as per the example below: 
+		<p>So, once you have set all the filters and options that apply to each objectives and sub-objectives of the procedure tree, go to the public interface and access the page of each objective from the traditional menu under "Procedures". </p>
 
-<p><a class="item" href="/images/news/filter8.png"><img src="/images/news/filter8.png" style="max-width: 800px;"></a></p>
+<p>You will see the filters, as per the example on the left. </p>
 
-You can then see if your filters configuration is right, and modify it if needed.
+<p>You can then see if your filters configuration is right, and modify it if needed.</p>
 
-Let Vianney and Roxana know if you find bugs or things that could be improved... Thank you!
+<p>Let Vianney and Roxana know if you find bugs or things that could be improved... Thank you!</p>
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
 
 ## Systems under tests.
 
