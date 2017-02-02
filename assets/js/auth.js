@@ -24,6 +24,7 @@ userConnexion.prototype.initFirebase = function() {
 	$(".user-waiter").removeClass('hidden');
 	$(".user-only").addClass('hidden');
 	$('.login-error').addClass('hidden');
+	$(".collaborative-frame").addClass('hidden');
 	this.autoConnect = true;
 	this.auth = firebase.auth();
 	this.auth.onAuthStateChanged(this.onAuthStateChanged.bind(this));
@@ -56,6 +57,7 @@ userConnexion.prototype.signOut = function() {
 	$("#btn-login").toggleClass('hidden');
 	$(".user-waiter").removeClass('hidden');
 	$(".user-only").addClass('hidden');
+	$(".collaborative-frame").addClass('hidden');
 
 }
 
@@ -63,6 +65,7 @@ userConnexion.prototype.onAuthStateChanged = function(user) {
 	$(".user-waiter").removeClass('hidden');
 	$(".user-only").addClass('hidden');
 	$('.login-error').addClass('hidden');
+	$(".collaborative-frame").addClass('hidden');
 	console.log(user);
 	if(user) {
 		console.log("user logged");
@@ -70,17 +73,21 @@ userConnexion.prototype.onAuthStateChanged = function(user) {
 		$("#btn-login").toggleClass('hidden');
 		$(".user-waiter").addClass('hidden');
 		$(".user-only").removeClass('hidden');
-
-		/*if(user.displayName != undefined && user.displayName != "undefined") {
-			this.userName.textContent = user.displayName;
-		}else{
-			this.userName.textContent = "User logged";
-		}*/
 		$('#login-modal').modal('hide');
+		$(".collaborative-frame").removeClass('hidden');
+		if($('body').hasClass('collaborative')) {
+			var firepadRef = firebase.database().ref();
+		  //// Create CodeMirror (with lineWrapping on).
+		  var codeMirror = CodeMirror(document.getElementById('firepad-container'), { lineWrapping: true });
+		  //// Create Firepad (with rich text toolbar and shortcuts enabled).
+		  var firepad = Firepad.fromCodeMirror(firepadRef, codeMirror,
+		      { richTextToolbar: true, richTextShortcuts: true });
+		}
 	}else{
 		console.log("user not logged");
 		$(".user-only").addClass('hidden');
 		$(".user-waiter").removeClass('hidden');
+		$(".collaborative-frame").addClass('hidden');
 		if(this.autoConnect == false) {
 			$('.login-error').removeClass('hidden');
 		}

@@ -6,17 +6,21 @@ title: Filters
 ref: new-filters
 weight: 1
 userOnly: true
+bodyClass: 'collaborative'
 ---
 
 # Filters
 
+Feedback
+{: .cd-btn .btn .btn-info .feedback-btn }
+
 ## What are the filters ?
 
-Filters allow to take into account the specific situation of different users relating to some elements in an eRegulations procedure. 
+Filters allow to take into account the specific situation of different users relating to some elements in an eRegulations procedure.
 
 The notion of "filter" in eRegulations is the same as "determinants" in eRegistrations. Filters are defined as a catalog and linked to elements in a system.
 
-Example : a user visits the TradePortal system of Kenya, thinking the following: 
+Example : a user visits the TradePortal system of Kenya, thinking the following:
 
 <p class="text-white" style="background-color: #999;">I, exporter, want to export flowers to Amsterdam going though the JKIA airport</p>
 
@@ -31,7 +35,7 @@ to set it according to his/her interest :
 A click on "Search" button would link to the expected procedure of "Export flowers to the European Union through JKIA airport".
 
 
-Other examples of procedures that people search in eRegulations are: 
+Other examples of procedures that people search in eRegulations are:
 
 <p class="text-white" style="background-color: #999;">(Bhutan) I, individual trader, want to register a company of asset inferior to 100'000 US$ outside of Thimphu on a private land.</p>
 
@@ -90,7 +94,7 @@ In those cases, the filters are similar among 3 eRegulations systems, but they c
 
 The changes brought by the filters feature will be the following:
 
-1. As mentioned above, the way user access to the procedure will be through the selectors or the homepage. We will keep the traditional menu of the top (under Procedures) but we hope that it will not be the main way visitors arrive to the procedures. 
+1. As mentioned above, the way user access to the procedure will be through the selectors or the homepage. We will keep the traditional menu of the top (under Procedures) but we hope that it will not be the main way visitors arrive to the procedures.
 
 2. The selectors will be on all the pages of the public interface, allowing direct jumps from one procedure to an other.
 
@@ -120,7 +124,7 @@ This function will be replaced by dynamic pages where user will be given a choic
     <h5>Add a filter</h5>
     <p>Click on the black button "Add a filter". It opens a window with the filters that have already been created in the system. You can click on one of them to reuse it. If the expected filter is not available, click on the button "New filter".</p>
 	<p><a class="item" href="/images/news/filter5.png"><img src="/images/news/filter5.png" style="max-width: 800px;"></a></p>
-	
+
     <ul>
       <li>
         <h5>Give a name to your filter</h5>
@@ -148,12 +152,12 @@ This function will be replaced by dynamic pages where user will be given a choic
     <p>This links the procedure to one or more option(s) of the filter: when the option will be selected by the user from the public interface, this procedure will be the procedure (or one of the procedures) displayed to the user.</p>
     <p><a class="item" href="/images/news/filter7.png"><img src="/images/news/filter7.png" style="max-width: 800px;"></a></p>
   </li>
-  
+
   <li>
     <h5>Add all the other filters needed in the branch</h5>
     <p>Repeat the steps 3, 4, 5 to add all the filters.</p>
   </li>
-  
+
   <li>
     <h5>Browse all the objectives and sub-objectives and select the corresponding options of the filters.</h5>
     <p>If a filter is missing, you can add it from anywhere in a branch. The filter will appear in all the branch.</p>
