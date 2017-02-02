@@ -615,6 +615,50 @@ h1 a:before, h2 a:before, h3 a:before {
 	top: 50px;
 }
 
+.firepad-btn-group > .firepad-btn:first-child {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+  margin-left: 0px;
+}
+
+.firepad-btn-group > .firepad-btn:last-child {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-topright: 3px;
+}
+a.firepad-btn, a.firepad-btn:visited, a.firepad-btn:active {
+	border-bottom-width: 3px;
+}
+
+.powered-by-firepad {
+	display: none;
+}
+
+.feedback-btn {
+	position: absolute;
+	top: 56px;
+	right: 24px;
+}
+
+.post-content {
+	position: relative;
+}
+
+.collaborative-frame {
+	height: 100%;
+}
+
+.cd-panel-header {
+	background-color: #57c7d4;
+}
+
 /* responsive */
 @media screen and (max-width:767px) {
 	header {
